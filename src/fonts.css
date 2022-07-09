@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "HYCUGB";
+  src: url("../public/assets/fonts/HYCUGothicB.ttf") format("truetype"),
+    url("../public/assets/fonts/HYCUGothicB.woff") format("woff");
+}
+
+@font-face {
+  font-family: "HYCUGEB";
+  src: url("../public/assets/fonts/HYCUGothicEB.ttf") format("truetype"),
+    url("../public/assets/fonts/HYCUGothicEB.woff") format("woff");
+}
+
+@font-face {
+  font-family: "HYCUGL";
+  src: url("../public/assets/fonts/HYCUGothicL.ttf") format("truetype"),
+    url("../public/assets/fonts/HYCUGothicL.woff") format("woff");
+}
+
+@font-face {
+  font-family: "HYCUGM";
+  src: url("../public/assets/fonts/HYCUGothicM.ttf") format("truetype"),
+    url("../public/assets/fonts/HYCUGothicM.woff") format("woff");
+}

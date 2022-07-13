@@ -4,7 +4,7 @@ export type memberType = {
   comment?: string;
   freeWork: workType;
   designatedWork: workType;
-  gradPic: NodeRequire;
+  gradPic: string;
 };
 
 export type dataType = {
@@ -16,7 +16,7 @@ export type dataType = {
 };
 
 export type workType = {
-  image: NodeRequire;
+  image: string;
   video?: string;
   title?: string;
   comment?: string;

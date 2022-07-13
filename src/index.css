@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+}
+
+.container {
+  min-width: 1720px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.font-bold {
+  font-family: "HYCUGB";
+}
+
+.font-extra-bold {
+  font-family: "HYCUGEB";
+}
+
+.font-light {
+  font-family: "HYCUGL";
+}
+
+.default-text {
+  font-family: "HYCUGM";
+}
+
+.headerText {
+  font-size: 16px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 260px 260px 260px 260px 260px;
+  justify-content: space-between;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

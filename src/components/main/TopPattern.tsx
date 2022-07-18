@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function TopPattern() {
-  return <div>TopPattern</div>;
+  return (
+    <div className="container">
+      <div className="backPanner" />
+    </div>
+  );
 }

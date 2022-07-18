@@ -8,6 +8,7 @@ export default function MainTitleLayout({
   title,
   color,
   onChange,
+  smallTitle,
 }: propsType) {
   const [choose, setChoose] = useState("visual");
   const btnData = [
@@ -21,67 +22,15 @@ export default function MainTitleLayout({
   return (
     <div>
       {btnOption === "top" && (
-        <div style={{ flexDirection: "row", display: "flex" }}>
-          <div style={{ flex: 1 }} />
-          <div style={{ flex: 8, flexDirection: "row", display: "flex" }}>
-            {btnData.map((item, index) => (
-              <CustomText
-                msg={getTitle(item)}
-                fontType="bold"
-                props={{
-                  style: {
-                    fontSize: 25,
-                    color: choose === item ? getColor(item) : "#000",
-                    paddingBottom: 8,
-                    borderBottomWidth: 6,
-                    borderBottomColor:
-                      choose === item ? getColor(item) : "#acacac",
-                    borderBottomStyle: "solid",
-                  },
-                  className: "cursor-pointer",
-                  onClick: () => {
-                    setChoose(item);
-                    if (onChange) {
-                      onChange(item);
-                    }
-                  },
-                }}
-              />
-            ))}
-          </div>
-          <div style={{ flex: 1 }} />
-        </div>
-      )}
-      <div
-        style={{
-          flexDirection: "row",
-          backgroundColor: `${color}`,
-          display: "flex",
-          padding: "20px 0px",
-        }}
-      >
-        <div style={{ flex: 1 }} />
-        <div style={{ flex: 8 }}>
-          <CustomText
-            msg={title}
-            fontType={"extraBold"}
-            props={{ style: { color: "#fff", fontSize: 30 } }}
-          />
-        </div>
-        <div style={{ flex: 1 }} />
-      </div>
-      {btnOption === "bottom" && (
         <div
+          className="container"
           style={{
-            flexDirection: "row",
-            display: "flex",
             boxShadow: "0px 2px 10px 0 rgba(0, 0, 0, 0.15)",
           }}
         >
-          <div style={{ flex: 1 }} />
           <div
+            className="innerContainer"
             style={{
-              flex: 8,
               flexDirection: "row",
               display: "flex",
               justifyContent: "space-between",
@@ -113,13 +62,88 @@ export default function MainTitleLayout({
               />
             ))}
           </div>
-          <div style={{ flex: 1 }} />
         </div>
       )}
-      <div style={{ flexDirection: "row", display: "flex" }}>
-        <div style={{ flex: 1 }} />
-        <div style={{ flex: 8 }}>{children}</div>
-        <div style={{ flex: 1 }} />
+      <div
+        className="container"
+        style={{
+          backgroundColor: `${color}`,
+          padding: "20px 0px",
+        }}
+      >
+        <div
+          className="innerContainer"
+          style={{
+            flexDirection: "row",
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+          }}
+        >
+          <CustomText
+            msg={title}
+            fontType={"extraBold"}
+            props={{ style: { color: "#fff", fontSize: 30 } }}
+          />
+          {smallTitle && (
+            <CustomText
+              msg={smallTitle}
+              props={{
+                style: {
+                  color: "rgba(255, 255, 255)",
+                  fontSize: 25,
+                  opacity: 0.5,
+                },
+              }}
+            />
+          )}
+        </div>
+      </div>
+      {btnOption === "bottom" && (
+        <div
+          className="container"
+          style={{
+            boxShadow: "0px 2px 10px 0 rgba(0, 0, 0, 0.15)",
+          }}
+        >
+          <div
+            className="innerContainer"
+            style={{
+              flexDirection: "row",
+              display: "flex",
+              padding: "20px 0px",
+              justifyContent: "space-between",
+            }}
+          >
+            {btnData.map((item, index) => (
+              <CustomText
+                msg={getTitle(item)}
+                fontType="bold"
+                props={{
+                  style: {
+                    fontSize: 25,
+                    color: choose === item ? getColor(item) : "#000",
+                    paddingBottom: 8,
+                    borderBottomWidth: 6,
+                    borderBottomColor:
+                      choose === item ? getColor(item) : "#acacac",
+                    borderBottomStyle: "solid",
+                  },
+                  className: "cursor-pointer",
+                  onClick: () => {
+                    setChoose(item);
+                    if (onChange) {
+                      onChange(item);
+                    }
+                  },
+                }}
+              />
+            ))}
+          </div>
+        </div>
+      )}
+      <div className="container">
+        <div className="innerContainer">{children}</div>
       </div>
     </div>
   );
@@ -131,4 +155,5 @@ type propsType = {
   title: string;
   color: string;
   onChange?: (title: string) => void;
+  smallTitle?: string;
 };

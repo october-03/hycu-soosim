@@ -12,15 +12,25 @@ import TopPattern from "../components/main/TopPattern";
 export default function Main() {
   return (
     <div className="container row">
-      <div style={{ flex: 8 }}>
+      <div style={{}}>
         <Header />
         <TopPattern />
-        <About />
-        <Gallery />
-        <Introduction />
+        <section id="about">
+          <About />
+        </section>
+        <section id="gallery">
+          <Gallery />
+        </section>
+        <section id="introduction">
+          <Introduction />
+        </section>
         <Department />
-        <Professors />
-        <Location />
+        <section id="professors">
+          <Professors />
+        </section>
+        <section id="location">
+          <Location />
+        </section>
         <Footer />
       </div>
     </div>

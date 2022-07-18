@@ -13,6 +13,7 @@ export type dataType = {
   culture: memberType[];
   visual: memberType[];
   architecture: memberType[];
+  professor: memberType[];
 };
 
 export type workType = {

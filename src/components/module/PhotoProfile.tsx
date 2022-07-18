@@ -1,13 +1,22 @@
+import { url } from "inspector";
 import React from "react";
 import { memberType } from "../../types/dataType";
 import CustomText from "./CustomText";
 
-export default function PhotoProfile({ data, color }: propsType) {
+export default function PhotoProfile({ data, color, professor }: propsType) {
   return (
-    <div style={{ marginBottom: 68, display: "flex", flexDirection: "column" }}>
+    <div
+      className={`${!professor && "cursor-pointer"}`}
+      style={{ marginBottom: 68, display: "flex", flexDirection: "column" }}
+    >
       <img
         src={require("../../image" + data.gradPic + ".jpg")}
-        style={{ width: 260, height: 260 }}
+        style={{
+          width: 260,
+          height: 260,
+          objectFit: "cover",
+          objectPosition: "center top",
+        }}
         alt={""}
       />
       <CustomText
@@ -38,4 +47,5 @@ export default function PhotoProfile({ data, color }: propsType) {
 type propsType = {
   data: memberType;
   color: string;
+  professor?: boolean;
 };

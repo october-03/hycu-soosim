@@ -3,52 +3,43 @@ import CustomText from "../module/CustomText";
 
 export default function Header() {
   const titleData = [
-    "ABOUT",
-    "GALLERY",
-    "INTRODUCTION",
-    "PROFESSORS",
-    "LOCATION",
+    "about",
+    "gallery",
+    "introduction",
+    "professors",
+    "location",
   ];
   return (
     <div
-      className={"row"}
+      className={"container"}
       style={{
         padding: "20px 00px",
       }}
     >
-      <div style={{ flex: 1 }} />
       <div
+        className="innerContainer"
         style={{
           display: "flex",
           flexDirection: "row",
-          flex: 8,
           justifyContent: "space-between",
+          alignItems: "center",
         }}
       >
-        <CustomText
-          props={{
-            style: {
-              fontSize: 16,
-              letterSpacing: "13.68px",
-              display: "flex",
-              justifyContent: "flex-start",
-              alignItems: "center",
-            },
-          }}
-          msg={"Soosim 17.5"}
-          fontType={"extraBold"}
-        />
+        <div className="headerLogo" />
         {titleData.map((title, index) => (
           <CustomText
+            fontType="bold"
             props={{
-              className: "headerText",
+              className: "headerText cursor-pointer",
               style: {},
+              onClick: () => {
+                window.location.href = `#${title}`;
+              },
             }}
-            msg={title}
+            msg={title.toUpperCase()}
           />
         ))}
       </div>
-      <div style={{ flex: 1 }} />
     </div>
   );
 }

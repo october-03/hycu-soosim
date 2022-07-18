@@ -2,8 +2,20 @@ body {
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
-  min-width: 1720px;
+  min-width: 1440px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.innerContainer {
+  width: 1440px;
 }
 
 .row {
@@ -18,22 +30,26 @@ body {
 
 .font-bold {
   font-family: "HYCUGB";
+  transform: rotate(0.04deg);
 }
 
 .font-extra-bold {
   font-family: "HYCUGEB";
+  transform: rotate(0.04deg);
 }
 
 .font-light {
   font-family: "HYCUGL";
+  transform: rotate(0.04deg);
 }
 
 .default-text {
   font-family: "HYCUGM";
+  transform: rotate(0.04deg);
 }
 
 .headerText {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .grid-container {
@@ -44,4 +60,173 @@ body {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.headerLogo {
+  width: 249px;
+  height: 43px;
+  background-image: url("image/icon/logo@3x.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.backPanner {
+  background-image: url("image/icon/pannel@3x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 940px;
+}
+
+.dLogo {
+  background-image: url("image/icon/dIcon.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 237px;
+  height: 295px;
+}
+
+.bottomRectangle {
+  background-image: url("image/icon/bottomRectangle.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 43px;
+  height: 43px;
+}
+
+.topRectangle {
+  background-image: url("image/icon/topRectangle.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 43px;
+  height: 43px;
+}
+
+.introduction-diagram {
+  width: 1440px;
+  height: 647px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.bullet {
+  width: 20px;
+  height: 20px;
+  transform: translate(0, -15%);
+}
+
+.visual-diagram {
+  background-image: url("image/icon/visual@3x.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 668px;
+  height: 386px;
+}
+
+.newMedia-diagram {
+  background-image: url("image/icon/newmedia.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 729px;
+  height: 349px;
+}
+
+.visual-first-chart {
+  display: flex;
+  margin-top: 40px;
+}
+
+.visual-first-chart > div {
+  flex: 1;
+  border-top: 4px solid #000;
+  border-bottom: 4px solid #000;
+}
+
+.visual-first-chart > div:nth-child(2) {
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
+}
+
+.visual-first-chart > div > div:first-child {
+  padding: 13px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.visual-first-chart > div > div:nth-child(3) {
+  padding: 13px 0px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.visual-first-chart > div > div:nth-child(2) {
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  padding: 30px 0px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.visual-first-chart > div > div:last-child {
+  padding: 13px 0px;
+  display: flex;
+  padding-left: 20px;
+  border-bottom: none;
+}
+
+.architecture-chart {
+  display: flex;
+  margin-top: 40px;
+}
+
+.architecture-chart > div {
+  flex: 1;
+  border-top: 4px solid #000;
+  border-bottom: 4px solid #000;
+}
+
+.architecture-chart > div:nth-child(2) {
+  border-left: 2px solid #000;
+  border-right: 1px solid #000;
+}
+
+.architecture-chart > div:nth-child(3) {
+  border-left: 1px solid #000;
+  border-right: 2px solid #000;
+}
+
+.architecture-chart > div > div:first-child {
+  padding: 13px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.architecture-chart > div > div:nth-child(3) {
+  padding: 13px 0px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.architecture-chart > div > div:nth-child(2) {
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  padding: 30px 0px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 220px;
+}
+
+.architecture-chart > div > div:last-child {
+  padding: 13px 0px;
+  display: flex;
+  height: unset;
+  padding-left: 20px;
+  border-bottom: none;
 }

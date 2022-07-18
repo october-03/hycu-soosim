@@ -1,4 +1,3 @@
-import { url } from "inspector";
 import React from "react";
 import { memberType } from "../../types/dataType";
 import CustomText from "./CustomText";

@@ -17,6 +17,7 @@ export default function Introduction() {
           <img
             src={require("../../image/icon/introduction_icon_01.png")}
             style={{ width: 29, height: 43, marginBottom: 27 }}
+            alt=""
           />
           <div style={{ display: "flex" }}>
             <CustomText

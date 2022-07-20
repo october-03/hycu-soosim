@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import Detail from "../../screens/Detail";
 import { memberType } from "../../types/dataType";
 import CustomText from "./CustomText";
@@ -12,7 +11,6 @@ export default function PhotoProfile({ data, color, professor }: propsType) {
     setOpen(false);
   };
 
-  const navigate = useNavigate();
   return (
     <>
       <div

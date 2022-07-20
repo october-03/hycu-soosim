@@ -1,6 +1,6 @@
 import React from "react";
 import CustomText from "../module/CustomText";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 export default function Header() {
   const titleData = [

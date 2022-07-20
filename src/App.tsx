@@ -1,14 +1,6 @@
 import React from "react";
-import {
-  BrowserRouter,
-  Navigate,
-  Route,
-  Routes,
-  useLocation,
-} from "react-router-dom";
-import Detail from "./screens/Detail";
+import { Navigate, Route, Routes, useLocation } from "react-router-dom";
 import Main from "./screens/Main";
-import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 export default function App() {
   const location = useLocation();

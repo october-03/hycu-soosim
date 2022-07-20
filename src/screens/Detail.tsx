@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
 import DetailCompo from "../components/detail/DetailCompo";
 import Loading from "../components/detail/Loading";
-import CustomText from "../components/module/CustomText";
 import { memberType } from "../types/dataType";
 
 export default function Detail({ close, data }: propsType) {

@@ -1,5 +1,6 @@
 import React from "react";
 import CustomText from "../module/CustomText";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 export default function Header() {
   const titleData = [
@@ -27,17 +28,16 @@ export default function Header() {
       >
         <div className="headerLogo" />
         {titleData.map((title, index) => (
-          <CustomText
-            fontType="bold"
-            props={{
-              className: "headerText cursor-pointer",
-              style: {},
-              onClick: () => {
-                window.location.href = `#${title}`;
-              },
-            }}
-            msg={title.toUpperCase()}
-          />
+          <Link to={title} spy={true} smooth={true} offset={0} duration={500}>
+            <CustomText
+              fontType="bold"
+              props={{
+                className: "headerText cursor-pointer",
+                style: {},
+              }}
+              msg={title.toUpperCase()}
+            />
+          </Link>
         ))}
       </div>
     </div>

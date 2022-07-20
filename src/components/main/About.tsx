@@ -75,7 +75,8 @@ export default function About() {
             height="529"
             src="https://www.youtube.com/embed/y4rfU_DyJ0A"
             title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            frameBorder={0}
           />
         </div>
       </div>

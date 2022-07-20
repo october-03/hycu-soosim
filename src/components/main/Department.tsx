@@ -55,7 +55,7 @@ export default function Department() {
   return (
     <MainTitleLayout
       btnOption="top"
-      onChange={onChoose}
+      onTopChange={onChoose}
       title={getTitle(choose) + "학과"}
       color={getColor(choose)}
       smallTitle={getSmallTitle(choose)}

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import CustomText from "./CustomText";
 import { getColor, getTitle } from "./utils";
 
@@ -7,10 +7,12 @@ export default function MainTitleLayout({
   btnOption,
   title,
   color,
-  onChange,
+  onTopChange,
+  onBottomChange,
   smallTitle,
 }: propsType) {
-  const [choose, setChoose] = useState("visual");
+  const [topChoose, setTopChoose] = useState("visual");
+  const [bottomChoose, setBottomChoose] = useState("visual");
   const btnData = [
     "visual",
     "newMedia",
@@ -18,6 +20,24 @@ export default function MainTitleLayout({
     "industrial",
     "culture",
   ];
+
+  useEffect(() => {
+    let bottomSession = sessionStorage.getItem("BottomChoose");
+    let topSession = sessionStorage.getItem("TopChoose");
+    // console.log(bottomSession);
+    if (bottomSession) {
+      setBottomChoose(bottomSession);
+      if (onBottomChange) {
+        onBottomChange(bottomSession);
+      }
+    }
+    if (topSession) {
+      setTopChoose(topSession);
+      if (onTopChange) {
+        onTopChange(topSession);
+      }
+    }
+  }, []);
 
   return (
     <div>
@@ -44,18 +64,19 @@ export default function MainTitleLayout({
                 props={{
                   style: {
                     fontSize: 25,
-                    color: choose === item ? getColor(item) : "#000",
+                    color: topChoose === item ? getColor(item) : "#000",
                     paddingBottom: 8,
                     borderBottomWidth: 6,
                     borderBottomColor:
-                      choose === item ? getColor(item) : "#acacac",
+                      topChoose === item ? getColor(item) : "#acacac",
                     borderBottomStyle: "solid",
                   },
-                  className: "cursor-pointer",
+                  className: "cursor-pointer headerText",
                   onClick: () => {
-                    setChoose(item);
-                    if (onChange) {
-                      onChange(item);
+                    setTopChoose(item);
+                    sessionStorage.setItem("TopChoose", item);
+                    if (onTopChange) {
+                      onTopChange(item);
                     }
                   },
                 }}
@@ -122,18 +143,19 @@ export default function MainTitleLayout({
                 props={{
                   style: {
                     fontSize: 25,
-                    color: choose === item ? getColor(item) : "#000",
+                    color: bottomChoose === item ? getColor(item) : "#000",
                     paddingBottom: 8,
                     borderBottomWidth: 6,
                     borderBottomColor:
-                      choose === item ? getColor(item) : "#acacac",
+                      bottomChoose === item ? getColor(item) : "#acacac",
                     borderBottomStyle: "solid",
                   },
-                  className: "cursor-pointer",
+                  className: "cursor-pointer headerText",
                   onClick: () => {
-                    setChoose(item);
-                    if (onChange) {
-                      onChange(item);
+                    setBottomChoose(item);
+                    sessionStorage.setItem("BottomChoose", item);
+                    if (onBottomChange) {
+                      onBottomChange(item);
                     }
                   },
                 }}
@@ -154,6 +176,7 @@ type propsType = {
   btnOption?: "top" | "bottom";
   title: string;
   color: string;
-  onChange?: (title: string) => void;
+  onTopChange?: (title: string) => void;
+  onBottomChange?: (title: string) => void;
   smallTitle?: string;
 };

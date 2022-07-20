@@ -35,7 +35,7 @@ export default function Gallery() {
       title="GALLERY"
       color="#ffd43c"
       btnOption="bottom"
-      onChange={onChoose}
+      onBottomChange={onChoose}
     >
       <div
         style={{

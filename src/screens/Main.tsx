@@ -11,7 +11,7 @@ import TopPattern from "../components/main/TopPattern";
 
 export default function Main() {
   return (
-    <div className="container row">
+    <div className="container">
       <div style={{}}>
         <Header />
         <TopPattern />

@@ -3,7 +3,8 @@ body {
 }
 
 html {
-  scroll-behavior: smooth;
+  width: 100vw;
+  min-width: 1440px;
 }
 
 .container {
@@ -15,7 +16,8 @@ html {
 }
 
 .innerContainer {
-  width: 1440px;
+  width: 1410px;
+  padding: 0px 15px;
 }
 
 .row {
@@ -43,6 +45,10 @@ html {
   transform: rotate(0.04deg);
 }
 
+.CustomText {
+  white-space: pre-wrap;
+}
+
 .default-text {
   font-family: "HYCUGM";
   transform: rotate(0.04deg);
@@ -50,6 +56,27 @@ html {
 
 .headerText {
   font-size: 20px;
+  opacity: 1;
+  transition: opacity 0.1s ease-out;
+  -moz-transition: opacity 0.1s ease-out;
+  -webkit-transition: opacity 0.1s ease-out;
+  -o-transition: opacity 0.1s ease-out;
+}
+
+.headerText:hover {
+  opacity: 0.5;
+}
+
+.photoBox {
+  opacity: 1;
+  transition: opacity 0.3s ease-out;
+  -moz-transition: opacity 0.3s ease-out;
+  -webkit-transition: opacity 0.3s ease-out;
+  -o-transition: opacity 0.3s ease-out;
+}
+
+.photoBox:hover {
+  opacity: 0.5;
 }
 
 .grid-container {
@@ -71,11 +98,69 @@ html {
 }
 
 .backPanner {
-  background-image: url("image/icon/pannel@3x.png");
+  background-image: url("image/icon/main_bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 940px;
+  display: flex;
+  position: relative;
+}
+
+.hycu-logo {
+  background-image: url("image/icon/hycu_logo.png");
+  width: 187px;
+  height: 92px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: 132px;
+  right: 244px;
+}
+
+.sns-icon-01 {
+  background-image: url("image/icon/sns_icon_01.png");
+  width: 42px;
+  height: 42px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 25px;
+}
+.sns-icon-02 {
+  background-image: url("image/icon/sns_icon_02.png");
+  width: 87px;
+  height: 43px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 25px;
+}
+.sns-icon-03 {
+  background-image: url("image/icon/sns_icon_03.png");
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 25px;
+}
+.sns-icon-04 {
+  background-image: url("image/icon/sns_icon_04.png");
+  width: 41px;
+  height: 41px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 25px;
+}
+
+.pannerText {
+  background-image: url("image/icon/main_title.png");
+  width: 599px;
+  height: 233px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
 }
 
 .dLogo {
@@ -102,11 +187,32 @@ html {
   height: 43px;
 }
 
+.exit-icon {
+  background-image: url("image/icon/topRectangle.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 49px;
+  height: 49px;
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
+
+.loading-icon {
+  background-image: url("image/icon/dIcon.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 249px;
+}
+
 .introduction-diagram {
-  width: 1440px;
+  width: 1410px;
   height: 647px;
   background-repeat: no-repeat;
   background-size: contain;
+  background-image: url("image/icon/departInfo.png");
+  margin-bottom: 82px;
 }
 
 .bullet {
@@ -121,6 +227,14 @@ html {
   background-size: contain;
   width: 668px;
   height: 386px;
+}
+
+.culture-diagram {
+  background-image: url("image/icon/culture.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 1145px;
+  height: 276px;
 }
 
 .newMedia-diagram {
@@ -229,4 +343,94 @@ html {
   height: unset;
   padding-left: 20px;
   border-bottom: none;
+}
+
+.mouseContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 290%);
+  border-radius: 50%;
+}
+
+.mousey {
+  width: 3px;
+  padding: 10px 15px;
+  height: 35px;
+  border: 3px solid #000;
+  border-radius: 25px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  opacity: 1;
+  box-sizing: content-box;
+  background-color: #fff;
+}
+
+.scroller {
+  width: 4px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: #000;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
+  animation-iteration-count: infinite;
+}
+@keyframes scroll {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(15px);
+    opacity: 0;
+  }
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 300ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+.loading-compo {
+  animation-name: fadeOut;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-direction: normal;
+}
+
+.detail-compo {
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-direction: normal;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

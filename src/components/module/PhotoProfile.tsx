@@ -68,6 +68,7 @@ export default function PhotoProfile({ data, color, professor }: propsType) {
             borderRadius: 0,
             padding: 0,
             minWidth: 1410,
+            background: "#000",
           },
         }}
         closeTimeoutMS={200}

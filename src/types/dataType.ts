@@ -5,6 +5,7 @@ export type memberType = {
   freeWork: workType;
   designatedWork: workType;
   gradPic: string;
+  department: string;
 };
 
 export type dataType = {

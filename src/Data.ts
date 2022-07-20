@@ -14,6 +14,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/industrial/H201926026/freeImage",
       },
+      department: "industrial",
     },
     {
       id: "H201726483",
@@ -28,6 +29,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/industrial/H201726483/freeImage",
       },
+      department: "industrial",
     },
     {
       id: "H201826320",
@@ -42,6 +44,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/industrial/H201826320/freeImage",
       },
+      department: "industrial",
     },
     {
       id: "H201726234",
@@ -56,6 +59,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/industrial/H201726234/freeImage",
       },
+      department: "industrial",
     },
     {
       id: "H201826338",
@@ -70,6 +74,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/industrial/H201826338/freeImage",
       },
+      department: "industrial",
     },
     {
       id: "H201826484",
@@ -85,6 +90,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/industrial/H201826484/freeImage",
       },
+      department: "industrial",
     },
     {
       id: "H201826492",
@@ -99,6 +105,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/industrial/H201826492/freeImage",
       },
+      department: "industrial",
     },
     {
       id: "H201726425",
@@ -114,6 +121,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/industrial/H201726425/freeImage",
       },
+      department: "industrial",
     },
     {
       id: "H201826497",
@@ -128,6 +136,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/industrial/H201826497/freeImage",
       },
+      department: "industrial",
     },
     {
       id: "H201826498",
@@ -143,6 +152,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/industrial/H201826498/freeImage",
       },
+      department: "industrial",
     },
     {
       id: "H201726501",
@@ -157,6 +167,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/industrial/H201726501/freeImage",
       },
+      department: "industrial",
     },
     {
       id: "H201826451",
@@ -171,6 +182,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/industrial/H201826451/freeImage",
       },
+      department: "industrial",
     },
   ],
   newMedia: [
@@ -189,6 +201,7 @@ export const Data: dataType = {
         title: "포스터 디자인",
         comment: "컨셉에 맞게 포스터 디자인했습니다.",
       },
+      department: "newMedia",
     },
     {
       id: "H201726321",
@@ -205,6 +218,7 @@ export const Data: dataType = {
         title: "게임 프로모션페이지 디자인",
         comment: `넷마블의 게임 중 ‘하운즈리로드’ 프로모션 페이지를 리디자인 해보았습니다.\n남성적이고 강렬하며 역동적인 느낌을 더하고 게임 프로모션이라는 특성을 그래픽효과를 통해 표현하였습니다.`,
       },
+      department: "newMedia",
     },
     {
       id: "H201826307",
@@ -221,6 +235,7 @@ export const Data: dataType = {
         title: "샤넬 웹스토어",
         comment: `현재 샤넬의 웹페이지에서는 뷰티라인을 제외한 다른 제품들을 판매하는 온라인 스토어가 구축되어 있지 않습니다.\n언택트 시대에 걸맞게 오란인 스토어를 제작하였습니다.`,
       },
+      department: "newMedia",
     },
     {
       id: "H201826472",
@@ -237,6 +252,7 @@ export const Data: dataType = {
         title: "모든 학생들을 위한 스터디 플래너",
         comment: `중학생부터 고등학생, 대학생, 고시생 등 모든 학생들이 공부 계획을 효율적으로 세울 수 있도록 도와주는 기능적이고 깔끔한 디자인의 스터디 플래너입니다.`,
       },
+      department: "newMedia",
     },
     {
       id: "H201926044",
@@ -254,6 +270,7 @@ export const Data: dataType = {
         title: "대전시립박물관 리뉴얼 (웹디자인)",
         comment: `기존의 대전시립박물관 홈페이지는 사용자에게 정보제공이 많이 미흡한점이 아쉬워 이를 보완하여 새롭게 리뉴얼 디자인 하였습니다.`,
       },
+      department: "newMedia",
     },
     {
       id: "H201826473",
@@ -272,6 +289,7 @@ export const Data: dataType = {
         comment:
           "문구와 잘 어울어지는 퍼플컬러에 동화 속과 같은 신비함을 달빛으로 표현하여 포스터를 제작하였습니다.",
       },
+      department: "newMedia",
     },
     {
       id: "H201826317",
@@ -289,6 +307,7 @@ export const Data: dataType = {
         comment:
           "지정작과 연계되는 고덕 평생학습관의 모바일 아이콘과 픽토그램 디자인입니다.",
       },
+      department: "newMedia",
     },
     {
       id: "H201826322",
@@ -307,6 +326,7 @@ export const Data: dataType = {
         comment:
           "떡볶이의 원조 “신당동 떡볶이 타운”을 소개하는 인포그래픽을 작업해보았습니다.",
       },
+      department: "newMedia",
     },
     {
       id: "H201826324",
@@ -326,6 +346,7 @@ export const Data: dataType = {
         comment:
           "기존 도서관 이용 프로세스를 재검토하여 좀 더 편리하게 사용할 수 있는 새로운 통합 서비스 앱을 기획했습니다.",
       },
+      department: "newMedia",
     },
     {
       id: "H201826475",
@@ -342,6 +363,7 @@ export const Data: dataType = {
         title: "니어앤디어 포스터",
         comment: "니어앤디어의 지향점과 무드를 담아낸 포스터입니다.",
       },
+      department: "newMedia",
     },
     {
       id: "H201826068",
@@ -361,6 +383,7 @@ export const Data: dataType = {
         comment:
           "단재 신채호 선생님의 말씀을 인용하여 한국사를 배우는 의의를 새기고자 디자인 하였습니다.",
       },
+      department: "newMedia",
     },
     {
       id: "H201826478",
@@ -378,6 +401,7 @@ export const Data: dataType = {
         title: "거위",
         comment: "자연풍경과 거위의 일러스트입니다.",
       },
+      department: "newMedia",
     },
     {
       id: "H201826481",
@@ -394,6 +418,7 @@ export const Data: dataType = {
         title: "라퓨타 포스터",
         comment: "‘천공의 성 라퓨타’ 포스터를 리디자인 해보았습니다.",
       },
+      department: "newMedia",
     },
     {
       id: "H201826355",
@@ -404,12 +429,14 @@ export const Data: dataType = {
         image: "/newMedia/H201826355/designatedImage",
         title: "고래(Dive Into You)",
         comment: `엔시티 드림의 고래(Dive Into You) 곡의 가사로 키네틱 타이포그래피 비디오를 만들었습니다.\n곡 주제가 고래로 고래 눈(동공)의 형상과 바닷속에서 고래 눈으로 바라보는 듯한 컨셉으로 제작하였습니다.`,
+        video: "https://www.youtube.com/embed/hWMliGzx4k0",
       },
       freeWork: {
         image: "/newMedia/H201826355/freeImage",
         title: "NO LIMIT",
         comment: `몬스타엑스 앨범 발매 홍보 포스터를 제작하였습니다.\n앨범명이 NO LIMIT인 점에 착안해 속도 제한 없이 우주에서 끝없이 달리는 자동차를 컨셉으로 하였습니다.\n그리고 레트로 무드를 더해서 포스터를 제작하였습니다.`,
       },
+      department: "newMedia",
     },
     {
       id: "H201826483",
@@ -427,6 +454,7 @@ export const Data: dataType = {
         comment:
           "사라질 위기에 처한 한국 고유의 문화인 제주 해녀를 알리고자 그들의 역사를 비롯하여 해녀의 복식 작업 시 사용하는 도구들을 물질 중인 해녀들을 중심으로 일러스트를 활용하여 표현하였습니다.",
       },
+      department: "newMedia",
     },
     {
       id: "H201926075",
@@ -444,7 +472,9 @@ export const Data: dataType = {
         title: "명대사 타이포",
         comment:
           "바람직한 지도자는 어떤 자인지 생각하게 하는 영화의 명대사를 키네틱 타이포그래피로 시각화하였다.",
+        video: "https://www.youtube.com/embed/5QtGauLPgkI",
       },
+      department: "newMedia",
     },
     {
       id: "H201826495",
@@ -463,6 +493,7 @@ export const Data: dataType = {
         comment:
           "고양이를 처음 데려왔던 때를 생각하며 드로잉과 모션그래픽으로 표현해봤습니다. 고양이를 마치 식물처럼 표현했습니다.",
       },
+      department: "newMedia",
     },
     {
       id: "2021107704",
@@ -482,6 +513,7 @@ export const Data: dataType = {
         comment:
           "모든 반려동물과 함께하는 반려인들이 이용할 수 있는 커뮤니티 앱으로 가이드 포스터를 작업해 봤습니다.",
       },
+      department: "newMedia",
     },
     {
       id: "H201826234",
@@ -501,6 +533,7 @@ export const Data: dataType = {
         comment:
           "기존 Web 사이즈 에서도 Mobile 사이즈로 노출되는 서비스를 새롭게 웹 디자인 해보았습니다.",
       },
+      department: "newMedia",
     },
     {
       id: "H201826500",
@@ -519,6 +552,7 @@ export const Data: dataType = {
         comment:
           "플라스틱을 많이 사용하여 북극의 얼음이 녹고 있는 것을 표현한 포스터 입니다.",
       },
+      department: "newMedia",
     },
     {
       id: "H201926117",
@@ -536,6 +570,7 @@ export const Data: dataType = {
         title: "원두란?",
         comment: `아침마다 마시는 커피에 대해 알고 싶은 마음으로 작업하게 되었습니다.\n누구나 아는 효과가 아닌, 커피의 제조 과정과 생산지를 조사하였습니다.`,
       },
+      department: "newMedia",
     },
     {
       id: "2021107974",
@@ -552,7 +587,9 @@ export const Data: dataType = {
         image: "/newMedia/2021107974/freeImage",
         title: "한율 (HANYUL)",
         comment: `평소에 즐겨쓰는 아모레퍼시픽의 화장품 브랜드 한율을 모션그래픽으로 표현해봤습니다.\n한율의 대표적인 라인인 어린 쑥, 흰 감국, 빨간 쌀, 달빛 유자의 자연풍경을 일러스트로 표현했고 각 씬마다 시간대를 설정했습니다.`,
+        video: "https://www.youtube.com/embed/Wrz3pkbxaFc",
       },
+      department: "newMedia",
     },
     {
       id: "H201926126",
@@ -563,13 +600,16 @@ export const Data: dataType = {
         image: "/newMedia/H201926126/designatedImage",
         title: "PERMISSION TO DANCE ON STAGE - LAS VEGAS",
         comment: `코로나 팬데믹 시대를 살아가며 예전의 일상으로 돌아가기 힘든 시기지만 희망을 잃지 않고,\n현재의 삶 속에서 행복과 즐거움을 찾으면 어려운 시기를 극복하고 팬데믹은 끝나고 평화가 다시 찾아 올 것이라는 희망을 주는 라스베가스 콘서트 홍보영상을 만들어 보았습니다.`,
+        video: "https://www.youtube.com/embed/o_BlkDGHFaw",
       },
       freeWork: {
         image: "/newMedia/H201926126/freeImage",
         title: "INSIDE CHANEL",
         comment:
           "가브리엘 샤넬이 1918년 파리 깜봉가 31번지에 샤넬하우스를 설립한 그 건물로부터 이야기는 시작됩니다.",
+        video: "https://www.youtube.com/embed/nggxl60K7G8",
       },
+      department: "newMedia",
     },
     {
       id: "H201826504",
@@ -587,6 +627,7 @@ export const Data: dataType = {
         title: "영화 포스터 리디자인",
         comment: `영화 마담 프루스트의 비밀정원의 포스터 리디자인 작업.\n주인공이 기억이 찾아가는 과정을 주제로 잡고 서정적으로 표현하였습니다.`,
       },
+      department: "newMedia",
     },
     {
       id: "H201526562",
@@ -602,6 +643,7 @@ export const Data: dataType = {
         image: "/newMedia/H201526562/freeImage",
         title: "멀티샵 리뉴얼",
       },
+      department: "newMedia",
     },
   ],
   architecture: [
@@ -618,6 +660,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/architecture/H201807072/freeImage",
       },
+      department: "architecture",
     },
     {
       id: "2021102815",
@@ -632,6 +675,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/architecture/2021102815/freeImage",
       },
+      department: "architecture",
     },
     {
       id: "H201907058",
@@ -647,6 +691,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/architecture/H201907058/freeImage",
       },
+      department: "architecture",
     },
     {
       id: "H201826210",
@@ -662,6 +707,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/architecture/H201826210/freeImage",
       },
+      department: "architecture",
     },
     {
       id: "H201807147",
@@ -677,6 +723,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/architecture/H201807147/freeImage",
       },
+      department: "architecture",
     },
     {
       id: "H201426258",
@@ -691,6 +738,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/architecture/H201426258/freeImage",
       },
+      department: "architecture",
     },
     {
       id: "H201526414",
@@ -705,6 +753,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/architecture/H201526414/freeImage",
       },
+      department: "architecture",
     },
     {
       id: "H201807108",
@@ -719,6 +768,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/architecture/H201807108/freeImage",
       },
+      department: "architecture",
     },
     {
       id: "H201707041",
@@ -735,6 +785,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/architecture/H201707041/freeImage",
       },
+      department: "architecture",
     },
     {
       id: "H201807149",
@@ -749,6 +800,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/architecture/H201807149/freeImage",
       },
+      department: "architecture",
     },
     {
       id: "H201807150",
@@ -764,6 +816,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/architecture/H201807150/freeImage",
       },
+      department: "architecture",
     },
     {
       id: "H201626554",
@@ -778,6 +831,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/architecture/H201626554/freeImage",
       },
+      department: "architecture",
     },
     {
       id: "H201726155",
@@ -792,6 +846,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/architecture/H201726155/freeImage",
       },
+      department: "architecture",
     },
     {
       id: "H201226279",
@@ -806,6 +861,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/architecture/H201226279/freeImage",
       },
+      department: "architecture",
     },
   ],
   culture: [
@@ -823,6 +879,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/culture/H201926001/freeImage",
       },
+      department: "culture",
     },
     {
       id: "2021103343",
@@ -839,6 +896,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/culture/2021103343/freeImage",
       },
+      department: "culture",
     },
     {
       id: "H201826204",
@@ -853,6 +911,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/culture/H201826204/freeImage",
       },
+      department: "culture",
     },
     {
       id: "2021103187",
@@ -867,6 +926,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/culture/2021103187/freeImage",
       },
+      department: "culture",
     },
     {
       id: "H201626067",
@@ -882,6 +942,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/culture/H201626067/freeImage",
       },
+      department: "culture",
     },
     {
       id: "H201826353",
@@ -896,6 +957,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/culture/H201826353/freeImage",
       },
+      department: "culture",
     },
     {
       id: "H201726392",
@@ -911,6 +973,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/culture/H201726392/freeImage",
       },
+      department: "culture",
     },
     {
       id: "H201826488",
@@ -926,6 +989,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/culture/H201826488/freeImage",
       },
+      department: "culture",
     },
     {
       id: "H201826489",
@@ -940,6 +1004,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/culture/H201826489/freeImage",
       },
+      department: "culture",
     },
     {
       id: "H201826494",
@@ -954,6 +1019,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/culture/H201826494/freeImage",
       },
+      department: "culture",
     },
     {
       id: "H201926097",
@@ -969,6 +1035,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/culture/H201926097/freeImage",
       },
+      department: "culture",
     },
     {
       id: "H201826505",
@@ -984,6 +1051,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/culture/H201826505/freeImage",
       },
+      department: "culture",
     },
     {
       id: "H201826444",
@@ -998,6 +1066,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/culture/H201826444/freeImage",
       },
+      department: "culture",
     },
     {
       id: "H201826507",
@@ -1012,6 +1081,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/culture/H201826507/freeImage",
       },
+      department: "culture",
     },
     {
       id: "H201826458",
@@ -1027,6 +1097,7 @@ export const Data: dataType = {
       freeWork: {
         image: "/culture/H201826458/freeImage",
       },
+      department: "culture",
     },
   ],
   visual: [
@@ -1045,6 +1116,7 @@ export const Data: dataType = {
         title: `숙취해소 음료 “취향저격”`,
         comment: `레트로 감성 디자인을 유행처럼 사용하는 2,30를 주요 타겟으로\n한자의 취할 취-"醉"를 써서 [숙취에 “취향저격”이다.]라는 의미가 부여된 숙취 해소 음료’입니다.`,
       },
+      department: "visual",
     },
     {
       id: "H201826274",
@@ -1062,6 +1134,7 @@ export const Data: dataType = {
         comment:
           "많은 여성들의 코피지에 대한 스트레스와 다이슨만의 파워풀한 흡입력 기술을 연결하여 직관적이고 유머 있는 광고를 표현하고 싶었습니다.",
       },
+      department: "visual",
     },
     {
       id: "H201826284",
@@ -1079,6 +1152,7 @@ export const Data: dataType = {
         title: "브로슈어 포스터 디자인",
         comment: "삼천리자전거의 브로슈어를 제작해보았습니다.",
       },
+      department: "visual",
     },
     {
       id: "H201626302",
@@ -1096,6 +1170,7 @@ export const Data: dataType = {
         title: "신더 CINDER",
         comment: `책 ‘신더 CINDER’ 를 읽으면서 신데렐라가 떠올라 신더의 특징들인 정비공과 의족을 유리구두와 같이 표현하였습니다.`,
       },
+      department: "visual",
     },
     {
       id: "2021107014",
@@ -1112,6 +1187,7 @@ export const Data: dataType = {
         title: "The Reader",
         comment: `독서매거진 The Reader의 여름호입니다.\n페이지를 넘기는 일이 지루하지 않도록 디자인하였습니다.`,
       },
+      department: "visual",
     },
     {
       id: "H201826298",
@@ -1128,6 +1204,7 @@ export const Data: dataType = {
         title: `‘SSG - 언제나 신선하게 당일배송‘`,
         comment: `SSG배송의 슬로건인 당일배송을 활용하여 팩맨의 컨셉으로 디자인을 실시하였습니다.\n게임 내 적이었던 유령의 경우 각 경쟁사를 의미하며 이를 극복하고 당일 배송을 완수할 수 있다는 광고디자인을 하였습니다.`,
       },
+      department: "visual",
     },
     {
       id: "H201826468",
@@ -1144,6 +1221,7 @@ export const Data: dataType = {
         title: "경주맥주",
         comment: "경주 피자의 경주 수제맥주 패키지 리뉴얼 디자인입니다.",
       },
+      department: "visual",
     },
     {
       id: "2021107632",
@@ -1160,6 +1238,7 @@ export const Data: dataType = {
         title: "육아용품 페스티벌",
         comment: `상황 일러스트를 통해 엄마들의 공감을 불러일으키는 축제 포스터입니다.\n웹툰 형식의 레이아웃으로 재미를 더해주었으며 축제 참여를 이끌기 위하여 재미난 스토리를 담고자 하였습니다.`,
       },
+      department: "visual",
     },
     {
       id: "H201826064",
@@ -1177,6 +1256,7 @@ export const Data: dataType = {
         comment:
           "다른 지역으로 처음 놀러갈 때 00맛집, 00갈만한 곳 등 검색을 많이 하는 사람들을 위해 한눈에 볼 수 있도록 인포그래픽을 활용하여 광고포스터로 제작했습니다.",
       },
+      department: "visual",
     },
     {
       id: "H201826213",
@@ -1194,6 +1274,7 @@ export const Data: dataType = {
         title: "오늘도 패키지 디자인",
         comment: `선별한 채소와 과일로 만든 신선한 건강 주스 '오늘도' 의 패키지 디자인으로 프레시함을 표현하였습니다.`,
       },
+      department: "visual",
     },
     {
       id: "H201826257",
@@ -1211,6 +1292,7 @@ export const Data: dataType = {
         title: "성경 시간 탐험대!",
         comment: `네 명의 캐릭터들이 과거 시간 여행을 떠나 성경 속 주인공이 되어 성경 역사를 체험하는 것을 통해,\n 신앙 속에 숨겨진 교훈들을 배워 가며 성숙한 사람으로 성장해 가는 이야기 입니다.`,
       },
+      department: "visual",
     },
     {
       id: "H201826479",
@@ -1229,6 +1311,7 @@ export const Data: dataType = {
         title: "FEEL THE RHYTHM OF KOREA 말랑풍풀",
         comment: `한국 문화 콘텐츠 및 상품 개발을 위한 풍산개와 삽살개의 캐릭터 디자인입니다.\n한국관광공사의 feel the rhythm of korea와 같은 분위기로 디자인하고자 하였습니다.`,
       },
+      department: "visual",
     },
     {
       id: "H201826339",
@@ -1247,6 +1330,7 @@ export const Data: dataType = {
         comment:
           "하루하루가 피곤한 모든 이들을 위해 나를 위해 조금은 대충살아도 괜찮다. 라는 위로의 메시지를 담은 인포그래픽이다.",
       },
+      department: "visual",
     },
     {
       id: "H201926064",
@@ -1264,6 +1348,7 @@ export const Data: dataType = {
         comment:
           "무분별한 개발, 기후변화, 질병으로 고통받고 기능적 멸종위기에 놓인 코알라의 심각성을 알리기 위해 제작한 인포그래픽.",
       },
+      department: "visual",
     },
     {
       id: "H201826084",
@@ -1282,6 +1367,7 @@ export const Data: dataType = {
         comment:
           "기존의 디자인보다 친근한 이미지로 소비자들에게 다가가기 위해 밝고 귀여운 느낌으로 표현하여 리뉴얼 했습니다.",
       },
+      department: "visual",
     },
     {
       id: "H201926068",
@@ -1298,6 +1384,7 @@ export const Data: dataType = {
         title: "다다이즘 전시회 포스터",
         comment: `다다이즘 ‘무의미함의 의미’를 담은 전시회의 포스터 디자인 입니다.`,
       },
+      department: "visual",
     },
     {
       id: "H201826350",
@@ -1316,6 +1403,7 @@ export const Data: dataType = {
         title: "고양이 성격 분석 인포그래픽",
         comment: `고양이에 대한 인기가 높아진 요즘, 고양이도 사람과 같이, 성격이 다 다른데 잘 알아보지도 않고 무턱대고 인형사듯 데려오고서\n유기하거나 파양하는 사람들이 많아지는 것을 보고 그러지말고 제발 생명으로 생각하고 입양하길 바라는 마음에 만들어보게 되었습니다.`,
       },
+      department: "visual",
     },
     {
       id: "H201826222",
@@ -1332,6 +1420,7 @@ export const Data: dataType = {
         title: "호박을 마시다(패키지 디자인)",
         comment: `평소에 즐겨 마시는 호박즙을 패키지 디자인 했습니다.\n‘pumpkin’ 과 ‘drink’ 를 합쳐서 ‘pumprink’ 라는 상표명을 만들었습니다.`,
       },
+      department: "visual",
     },
     {
       id: "H201826485",
@@ -1349,6 +1438,7 @@ export const Data: dataType = {
         title: "아침햇살의 패키지디자인 리뉴얼",
         comment: `아침햇살의 기존 로고와 패키지는 다소 옛스러운 느낌이 강하여 로고를 현대적이면서도 기존의 로고를 해치지 않는 선에서다시 리디자인하여 패키지까지 적용하여 광고 포스터처럼 컨셉을 잡았습니다.`,
       },
+      department: "visual",
     },
     {
       id: "H201826490",
@@ -1365,6 +1455,7 @@ export const Data: dataType = {
         title: "서울 빛초롱 축제",
         comment: `서울 빛초롱축제 포스터입니다. 이번 해에 빛초롱축제가 진행이 된다면, 어떤 모습일까 상상해서 포스터 디자인을 해보았습니다.\n배경에 있는 원형은 밤하늘에 반짝이고 번지는 불빛을 다양한 색으로 형상화하였습니다.`,
       },
+      department: "visual",
     },
     {
       id: "H201826491",
@@ -1381,6 +1472,7 @@ export const Data: dataType = {
         title: "2% 부족할 때 패키지디자인",
         comment: `기존 ‘2% 부족할 때’ 제품의 패키지를 리디자인한 것으로 기존의 2%의 로고에 제품의 특징을 연관시켜 리뉴얼하였으며,\n물처럼 마시는 음료임을 알 수 있도록 직관적으로 표현하였습니다.`,
       },
+      department: "visual",
     },
     {
       id: "H201726496",
@@ -1397,6 +1489,7 @@ export const Data: dataType = {
         title: "그린주스",
         comment: `현대인들의 바쁜 일상에 건강한 '그린주스'로 활기를 불어넣는다.`,
       },
+      department: "visual",
     },
     {
       id: "H201726141",
@@ -1413,6 +1506,7 @@ export const Data: dataType = {
         title: "안전한 성 관계",
         comment: `안전한 성 관계에 대하여 알리고자 광고 포스터를 만들었습니다.`,
       },
+      department: "visual",
     },
     {
       id: "H201826130",
@@ -1430,6 +1524,7 @@ export const Data: dataType = {
         title: `모든 것은 원자로 이루어져 있다.`,
         comment: `만약 대격변이 일어나 모든 과학 지식이 소실되었는데, 딱 한 문장만을 다음 세대에 전해줄 수 있다면,\n그 문장은, 모든 것은 원자로 즉 서로 조금 떨어져 있을 때에는 끌어당기지만 서로 압착되면 밀쳐내면서 영구 운동을 하며 돌아다니는 작은 입자들로 이루어져 있다는 것이라고 생각합니다.`,
       },
+      department: "visual",
     },
     {
       id: "2021105176",
@@ -1446,6 +1541,7 @@ export const Data: dataType = {
         title: "BOUNCING BALL",
         comment: `졸업페스티벌 컨셉 포스터입니다.\n공은 역동적이며 어디로 갈지 모르는 잠재적 존재입니다.\n우리 모두 공처럼 언제 어디서든, 무한한 가능성을 즐겁게 펼치며 뛰어오르길 응원합니다.`,
       },
+      department: "visual",
     },
     {
       id: "H201826264",
@@ -1463,6 +1559,7 @@ export const Data: dataType = {
         title: "Circle&Colorful",
         comment: `경쾌한 2023년을 위한 벽걸이형 달력을 디자인 했습니다.\n원의 갯수로 몇 월인지 표현했고 각 계절들의 특징과 기후에 맞춰 다양한 색상을 사용했습니다.`,
       },
+      department: "visual",
     },
     {
       id: "H201726270",
@@ -1481,6 +1578,7 @@ export const Data: dataType = {
         comment:
           "모래시계를 형상화 하여 위에는 물 아래에는 모래를 넣어 자연을 낭비하면 모든 것이 삭막해지는 환경으로 바뀐다는 것을 작품으로 만들었습니다.",
       },
+      department: "visual",
     },
     {
       id: "H201526177",
@@ -1498,6 +1596,7 @@ export const Data: dataType = {
         title: "NEXPRESS",
         comment: `회사 로고를 화사한 꽃을 활용하여 표현하였습니다.\n넥스프레스의 앞날이 봄날의 꽃처럼 밝고 꽃길만 걷기를 바라는 마음입니다.`,
       },
+      department: "visual",
     },
     {
       id: "H201826502",
@@ -1514,6 +1613,7 @@ export const Data: dataType = {
         title: "Not strange, Just not normal",
         comment: `매거진 커버 컨셉으로 작업한 살바도르 달리의 전시회 포스터입니다.\n초현실주의 성격을 꼴라주 기법과 트레이드 마크인 콧수염으로 달리를 표현하였고 그의 대표작인 기억의 지속 속 흘러내리는 시계를 배치해 더욱 뚜렷하게 달리를 표현하였습니다.`,
       },
+      department: "visual",
     },
     {
       id: "H201626264",
@@ -1530,6 +1630,7 @@ export const Data: dataType = {
         title: "따미의 세계",
         comment: "직접만든 캐릭터들의 유니버스를 그려보았습니다.",
       },
+      department: "visual",
     },
     {
       id: "H201826172",
@@ -1546,6 +1647,7 @@ export const Data: dataType = {
         title: "사지마세요, 입양하세요",
         comment: "반려동물 입양 포스터",
       },
+      department: "visual",
     },
     {
       id: "H201826440",
@@ -1564,6 +1666,7 @@ export const Data: dataType = {
         comment:
           "기운차게 힘내자라는 뜻과 사랑, 마음의 뜻을 합친 ‘cheeluv’의 그래놀라 시리얼 패키지 디자인으로 밝고 사랑스러움을 표현하려고 하였습니다.",
       },
+      department: "visual",
     },
     {
       id: "H201826236",
@@ -1580,6 +1683,7 @@ export const Data: dataType = {
         title: "별자리 달력",
         comment: `요새 스마트폰을 보느라 올려보지 못하는 하늘.\n하늘 위에 떠 있는 별자리를 잠시나마 보고싶어 제작하였습니다.`,
       },
+      department: "visual",
     },
     {
       id: "H201926135",
@@ -1597,6 +1701,7 @@ export const Data: dataType = {
         comment:
           "새로운 편집 디자이너의 개척자, 알렉세이 브로도비치의 일대기를 그린 매거진",
       },
+      department: "visual",
     },
     {
       id: "H201926136",
@@ -1614,6 +1719,7 @@ export const Data: dataType = {
         comment:
           "캘리그라피와 붉은색 낙관으로 포인트를 주어 세계적인 축제가 되길 기원하는 마음으로 일러스트화하여 디자인한 포스터입니다.",
       },
+      department: "visual",
     },
     {
       id: "H201826454",
@@ -1631,6 +1737,7 @@ export const Data: dataType = {
         comment: `그물로 아이들 놀이공간을 만드는 <칼라우즈> 라는 회사 브러셔를 리뉴얼 하였습니다.
         자연을 테마로 나무와 자연에서 아이들이 마음껏 뛰어 놀고 꿈을 꾸며 자라기를 바라는 뜻을 담았습니다.`,
       },
+      department: "visual",
     },
     {
       id: "H201726252",
@@ -1650,6 +1757,7 @@ export const Data: dataType = {
         comment:
           "커피를 많이 좋아하고 커피의 감성과 철학과 문화를 이해하고 싶은 커피 메니아",
       },
+      department: "visual",
     },
   ],
   professor: [
@@ -1659,6 +1767,7 @@ export const Data: dataType = {
       gradPic: "/professor/SHChoi",
       designatedWork: { image: "" },
       freeWork: { image: "" },
+      department: "professor",
     },
     {
       id: "디자인학부 교수",
@@ -1666,6 +1775,7 @@ export const Data: dataType = {
       gradPic: "/professor/DSU",
       designatedWork: { image: "" },
       freeWork: { image: "" },
+      department: "professor",
     },
     {
       id: "디자인학부 교수",
@@ -1673,6 +1783,7 @@ export const Data: dataType = {
       gradPic: "/professor/HMK",
       designatedWork: { image: "" },
       freeWork: { image: "" },
+      department: "professor",
     },
     {
       id: "디자인학부 교수",
@@ -1680,6 +1791,7 @@ export const Data: dataType = {
       gradPic: "/professor/SHC",
       designatedWork: { image: "" },
       freeWork: { image: "" },
+      department: "professor",
     },
     {
       id: "디자인학부 교수",
@@ -1687,6 +1799,7 @@ export const Data: dataType = {
       gradPic: "/professor/KJU",
       designatedWork: { image: "" },
       freeWork: { image: "" },
+      department: "professor",
     },
     {
       id: "디자인학부 교수",
@@ -1694,6 +1807,7 @@ export const Data: dataType = {
       gradPic: "/professor/SMJ",
       designatedWork: { image: "" },
       freeWork: { image: "" },
+      department: "professor",
     },
     {
       id: "디자인학부 교수",
@@ -1701,6 +1815,7 @@ export const Data: dataType = {
       gradPic: "/professor/MJK",
       designatedWork: { image: "" },
       freeWork: { image: "" },
+      department: "professor",
     },
   ],
 };

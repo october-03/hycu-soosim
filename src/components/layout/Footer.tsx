@@ -192,7 +192,10 @@ export default function Footer() {
             <div
               className="sns-icon-02 photoBox cursor-pointer"
               onClick={() => {
-                window.open("https://design.hycu.ac.kr/", "_blank");
+                window.open(
+                  "https://talk.hycu.ac.kr/design/index.do",
+                  "_blank"
+                );
               }}
             />
             <div

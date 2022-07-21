@@ -151,7 +151,7 @@ export default function Footer() {
         className="innerContainer"
       >
         <div style={{ flex: 1 }}>
-          <div className="headerLogo" />
+          <div className="wHeaderLogo" />
           <div style={{ marginTop: 45 }}>
             <CustomText
               msg="2022"

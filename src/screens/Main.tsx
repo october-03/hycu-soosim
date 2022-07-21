@@ -10,8 +10,13 @@ import Professors from "../components/main/Professors";
 import TopPattern from "../components/main/TopPattern";
 
 export default function Main() {
+  const body = document.querySelector("body");
+  if (body) {
+    const scrollbar = window.innerWidth - body.clientWidth;
+    body.setAttribute("style", `--scrollbar: ${scrollbar}px`);
+  }
   return (
-    <div className="container">
+    <div className="container main-container">
       <div style={{}}>
         <Header />
         <TopPattern />

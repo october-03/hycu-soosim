@@ -11,9 +11,17 @@ export default function DetailCompo({ data, closeModal }: propsType) {
     if (scrollContent) {
       scrollContent.addEventListener("scroll", () => {
         const scrolled = scrollContent.scrollTop; // reuse `scrollContent` innstead of querying the DOM again
-        console.log(scrolled);
+        // console.log(scrolled);
         setScroll(scrolled + 40);
       });
+    }
+    const body = document.querySelector("body");
+    if (body) {
+      const scrollbar = window.innerWidth - body.clientWidth;
+      body.setAttribute(
+        "style",
+        `--scrollbar: ${scrollbar}px; overflow: hidden;`
+      );
     }
   }, []);
   return (

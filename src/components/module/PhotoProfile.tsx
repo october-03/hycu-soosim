@@ -9,6 +9,29 @@ export default function PhotoProfile({ data, color, professor }: propsType) {
 
   const closeModal = () => {
     setOpen(false);
+    const body = document.querySelector("body");
+    if (body) {
+      const scrollbar = window.innerWidth - body.clientWidth;
+      body.setAttribute(
+        "style",
+        `--scrollbar: ${scrollbar}px; overflow: scroll;`
+      );
+    }
+  };
+
+  const openModal = () => {
+    setOpen(true);
+  };
+
+  const resizing = () => {
+    const body = document.querySelector("body");
+    if (body) {
+      const scrollbar = window.innerWidth - body.clientWidth;
+      body.setAttribute(
+        "style",
+        `--scrollbar: ${scrollbar}px; overflow: scroll;`
+      );
+    }
   };
 
   useEffect(() => {}, []);
@@ -22,7 +45,7 @@ export default function PhotoProfile({ data, color, professor }: propsType) {
           if (!professor) {
             console.log(data);
             // navigate("/detail", { state: { data } });
-            setOpen(true);
+            openModal();
           }
         }}
       >
@@ -82,6 +105,9 @@ export default function PhotoProfile({ data, color, professor }: propsType) {
           },
         }}
         closeTimeoutMS={200}
+        onAfterClose={() => {
+          resizing();
+        }}
       >
         <Detail data={data} close={closeModal} />
       </ReactModal>

@@ -67,8 +67,15 @@ export default function PhotoProfile({ data, color, professor }: propsType) {
             border: "none",
             borderRadius: 0,
             padding: 0,
-            minWidth: 1410,
+            minWidth: 1440,
             background: "#000",
+            overflow: "hidden",
+          },
+          overlay: {
+            // minWidth: 1410,
+            // width: "100vw",
+            zIndex: 10000,
+            overflow: "hidden",
           },
         }}
         closeTimeoutMS={200}

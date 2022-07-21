@@ -1,27 +1,28 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { memberType } from "../../types/dataType";
 import CustomText from "../module/CustomText";
 import { getColor } from "../module/utils";
 
 export default function DetailCompo({ data, closeModal }: propsType) {
-  // interface CustomizedState {
-  //   data: memberType;
-  // }
-
-  const location = useLocation();
-  const navigation = useNavigate();
-  // const state = location.state as CustomizedState; // Type Casting, then you can get the params passed via router
-  // const { data } = state;
+  const [scroll, setScroll] = useState(40);
   useEffect(() => {
-    // console.log(data, "myState");
-    console.log(navigation, "myNavigation");
-    console.log(location, "myLocation");
-
-    // window.scrollTo(0, 0);
+    const scrollContent = document.querySelector(".ReactModal__Content"); // store in a variable so we can reference the element in multiple locations
+    if (scrollContent) {
+      scrollContent.addEventListener("scroll", () => {
+        const scrolled = scrollContent.scrollTop; // reuse `scrollContent` innstead of querying the DOM again
+        console.log(scrolled);
+        setScroll(scrolled + 40);
+      });
+    }
   }, []);
   return (
-    <div className="container" style={{ backgroundColor: "#000" }}>
+    <div
+      className="container"
+      style={{ backgroundColor: "#000" }}
+      id="modalCompo"
+      // onScroll={handleScroll}
+    >
       <div
         className="innerContainer detail-compo"
         style={{
@@ -29,6 +30,7 @@ export default function DetailCompo({ data, closeModal }: propsType) {
           display: "flex",
           position: "relative",
         }}
+        // onScroll={handleScroll}
       >
         <div style={{ width: 300, marginRight: 180 }}>
           <img
@@ -71,7 +73,7 @@ export default function DetailCompo({ data, closeModal }: propsType) {
             fontType="light"
           />
         </div>
-        <div>
+        <div style={{ width: 840 }}>
           <img
             src={require("../../image" + data.designatedWork.image + ".jpg")}
             style={{
@@ -193,6 +195,7 @@ export default function DetailCompo({ data, closeModal }: propsType) {
             // navigation(-1);
             closeModal();
           }}
+          style={{ top: scroll }}
         />
       </div>
     </div>

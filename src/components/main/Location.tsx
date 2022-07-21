@@ -1,6 +1,6 @@
 import React from "react";
 import MainTitleLayout from "../module/MainTitleLayout";
-import map from "../../image/svg/Map.svg";
+import map from "../../image/icon/map@3x.png";
 import CustomText from "../module/CustomText";
 
 export default function Location() {

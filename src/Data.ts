@@ -6,6 +6,7 @@ export const Data: dataType = {
       name: "김은혜",
       comment: "의미 있는 시간을 보낼 수 있어 감사했습니다.",
       gradPic: "/industrial/H201926026/gradPic",
+      profile: "/industrial/H201926026/profile",
       designatedWork: {
         image: "/industrial/H201926026/designatedImage",
         title: "Small Balloons",
@@ -21,6 +22,7 @@ export const Data: dataType = {
       name: "김희주",
       comment: "목표를 향해 나아갈 수 있었던 뜻깊은 시간들이었습니다.",
       gradPic: "/industrial/H201726483/gradPic",
+      profile: "/industrial/H201726483/profile",
       designatedWork: {
         image: "/industrial/H201726483/designatedImage",
         title: "pOOkshe - gO",
@@ -36,6 +38,7 @@ export const Data: dataType = {
       name: "문민욱",
       comment: "이 졸업이 또 다른 멋진 일들의 시작이 되길 바랍니다.",
       gradPic: "/industrial/H201826320/gradPic",
+      profile: "/industrial/H201826320/profile",
       designatedWork: {
         image: "/industrial/H201826320/designatedImage",
         title: "분리형 손전등 SAVIOR",
@@ -51,6 +54,7 @@ export const Data: dataType = {
       name: "박다혜",
       comment: `너무 즐겁습니다.\n이제 끝이라니 너무 행복해요!!\n그동안 많은 것을 배우고 전 떠납니다.`,
       gradPic: "/industrial/H201726234/gradPic",
+      profile: "/industrial/H201726234/profile",
       designatedWork: {
         image: "/industrial/H201726234/designatedImage",
         title: "홍 트리오 높이조절 밥그릇",
@@ -66,6 +70,7 @@ export const Data: dataType = {
       name: "백희정",
       comment: "엄마 나 졸업했어",
       gradPic: "/industrial/H201826338/gradPic",
+      profile: "/industrial/H201826338/profile",
       designatedWork: {
         image: "/industrial/H201826338/designatedImage",
         title: "필통(Pilltong)",
@@ -81,6 +86,7 @@ export const Data: dataType = {
       name: "우민선",
       comment: "뿌듯한 시간이였습니다.",
       gradPic: "/industrial/H201826484/gradPic",
+      profile: "/industrial/H201826484/profile",
       designatedWork: {
         image: "/industrial/H201826484/designatedImage",
         title: "Easy-peasy Iron",
@@ -97,6 +103,7 @@ export const Data: dataType = {
       name: "이소혜",
       comment: "다가오지 않을 것 같던 졸업이 다가와 시원섭섭합니다.",
       gradPic: "/industrial/H201826492/gradPic",
+      profile: "/industrial/H201826492/profile",
       designatedWork: {
         image: "/industrial/H201826492/designatedImage",
         title: "소형 반자동 커피머신",
@@ -112,6 +119,7 @@ export const Data: dataType = {
       name: "이창훈",
       comment: "새로움을 생각하고 만드는 일은 늘 즐거움이다.",
       gradPic: "/industrial/H201726425/gradPic",
+      profile: "/industrial/H201726425/profile",
       designatedWork: {
         image: "/industrial/H201726425/designatedImage",
         title: "변형, 조절, 조립이 가능한 야외의자",
@@ -128,6 +136,7 @@ export const Data: dataType = {
       name: "장은형",
       comment: `직장을 다니면서 새로운 꿈을 위해 도전했는데,\n알지 못했던 새로운 분야를 알아가는 흥미로움이 컸다. 앞으로 더 많은 도전을 해야겠다.`,
       gradPic: "/industrial/H201826497/gradPic",
+      profile: "/industrial/H201826497/profile",
       designatedWork: {
         image: "/industrial/H201826497/designatedImage",
         title: "신선한 샐러드를 위한 제품디자인",
@@ -144,6 +153,7 @@ export const Data: dataType = {
       comment:
         "코로나의 시작과 끝을 한양사이버대학과 함께 했습니다.\n새로운 도전의 기회를 성취로 끝맺을 수 있어 감사하는 마음입니다.\n여기서 멈추지 않고 끊임없는 도전으로 함께 따라올 기회들 또한 기대가 됩니다.",
       gradPic: "/industrial/H201826498/gradPic",
+      profile: "/industrial/H201826498/profile",
       designatedWork: {
         image: "/industrial/H201826498/designatedImage",
         title: "슈혼드렐라",
@@ -159,6 +169,7 @@ export const Data: dataType = {
       name: "최하빈",
       comment: "졸업할 수 있게 되어 너무 기쁘고 교수님들께 감사드립니다.",
       gradPic: "/industrial/H201726501/gradPic",
+      profile: "/industrial/H201726501/profile",
       designatedWork: {
         image: "/industrial/H201726501/designatedImage",
         title: "SPORTS HIP SACK",
@@ -174,6 +185,7 @@ export const Data: dataType = {
       name: "함성인",
       comment: "가구를 디자인하고 제품을 만들 수 있어서 즐거웠습니다.",
       gradPic: "/industrial/H201826451/gradPic",
+      profile: "/industrial/H201826451/profile",
       designatedWork: {
         image: "/industrial/H201826451/designatedImage",
         title: "그느르다-살피고 보살펴주다.",
@@ -191,6 +203,7 @@ export const Data: dataType = {
       name: "권지아",
       comment: `드디어 졸업합니다!!\n잘배우고 갑니다 감사합니다 :)`,
       gradPic: "/newMedia/H201826461/gradPic",
+      profile: "/newMedia/H201826461/profile",
       designatedWork: {
         image: "/newMedia/H201826461/designatedImage",
         title: "모바일앱 리디자인",
@@ -208,6 +221,7 @@ export const Data: dataType = {
       name: "김연주",
       comment: `2019년, 더 발전하고 싶은 마음으로 도전했던 사이버대학교 학사 과정을 이수하게 되어 감사하고 기쁩니다.`,
       gradPic: "/newMedia/H201726321/gradPic",
+      profile: "/newMedia/H201726321/profile",
       designatedWork: {
         image: "/newMedia/H201726321/designatedImage",
         title: "JYP UI 사이트 리뉴얼",
@@ -225,6 +239,7 @@ export const Data: dataType = {
       name: "김지현",
       comment: `길고 긴 배움의 시간이 끝나고 저의 스킬로 녹여내며 결과물로 보여줄 수 있는 시간이 다가와 영광입니다.`,
       gradPic: "/newMedia/H201826307/gradPic",
+      profile: "/newMedia/H201826307/profile",
       designatedWork: {
         image: "/newMedia/H201826307/designatedImage",
         title: "코로나 동선 안심이 앱 리디자인",
@@ -242,6 +257,7 @@ export const Data: dataType = {
       name: "김혜령",
       comment: "많이 배울 수 있었습니다 :)",
       gradPic: "/newMedia/H201826472/gradPic",
+      profile: "/newMedia/H201826472/profile",
       designatedWork: {
         image: "/newMedia/H201826472/designatedImage",
         title: "영등포구립도서관 앱 리디자인",
@@ -260,6 +276,7 @@ export const Data: dataType = {
       comment:
         "많은 성장을 느낄 수 있었던 시간이었고 한편으로는 매우 아쉽네요. 감사합니다.",
       gradPic: "/newMedia/H201926044/gradPic",
+      profile: "/newMedia/H201926044/profile",
       designatedWork: {
         image: "/newMedia/H201926044/designatedImage",
         title: "오늘의여행 (모바일앱 디자인)",
@@ -277,6 +294,7 @@ export const Data: dataType = {
       name: "김희영",
       comment: "다양한 경험을 통해 성장 할 수 있는 시간이었습니다.",
       gradPic: "/newMedia/H201826473/gradPic",
+      profile: "/newMedia/H201826473/profile",
       designatedWork: {
         image: "/newMedia/H201826473/designatedImage",
         title: "삼계탕 증정 이벤트 페이지",
@@ -296,6 +314,7 @@ export const Data: dataType = {
       name: "류민지",
       comment: "다양한 지식을 얻고 졸업하게 되어 매우 뿌듯합니다.",
       gradPic: "/newMedia/H201826317/gradPic",
+      profile: "/newMedia/H201826317/profile",
       designatedWork: {
         image: "/newMedia/H201826317/designatedImage",
         title: "고덕평생학습관 앱",
@@ -314,6 +333,7 @@ export const Data: dataType = {
       name: "민하나",
       comment: `한사대 덕분에 제가 더 성장할 수 있었습니다.\n감사합니다.`,
       gradPic: "/newMedia/H201826322/gradPic",
+      profile: "/newMedia/H201826322/profile",
       designatedWork: {
         image: "/newMedia/H201826322/designatedImage",
         title: "이니스프리 웹 디자인",
@@ -334,6 +354,7 @@ export const Data: dataType = {
       comment:
         "무기력하던 일상의 새로운 목표가 되어준 두 번째 대학생활. 무사히 마칩니다.",
       gradPic: "/newMedia/H201826324/gradPic",
+      profile: "/newMedia/H201826324/profile",
       designatedWork: {
         image: "/newMedia/H201826324/designatedImage",
         title: "위치기반 통합도서관 서비스 리브고",
@@ -353,6 +374,7 @@ export const Data: dataType = {
       name: "박소희",
       comment: "벌써 졸업이라는 게 믿기지 않네요…!",
       gradPic: "/newMedia/H201826475/gradPic",
+      profile: "/newMedia/H201826475/profile",
       designatedWork: {
         image: "/newMedia/H201826475/designatedImage",
         title: "니어앤디어",
@@ -371,6 +393,7 @@ export const Data: dataType = {
       comment:
         "앞으로 가는 길을 의심하지 않고 자신감을 얻을 수 있는 시간이었습니다.",
       gradPic: "/newMedia/H201826068/gradPic",
+      profile: "/newMedia/H201826068/profile",
       designatedWork: {
         image: "/newMedia/H201826068/designatedImage",
         title: "내 손안에 전시회",
@@ -390,6 +413,7 @@ export const Data: dataType = {
       name: "박혜원",
       comment: `배우고 싶은것들을 배우고\n자신의 부족함도 돌아볼 수 있어 좋았습니다.`,
       gradPic: "/newMedia/H201826478/gradPic",
+      profile: "/newMedia/H201826478/profile",
       designatedWork: {
         image: "/newMedia/H201826478/designatedImage",
         title: "Emotioncolor",
@@ -408,6 +432,7 @@ export const Data: dataType = {
       name: "손지민",
       comment: "정신없이 졸업까지 왔네요. 배울 수 있어 좋았습니다. 감사합니다.",
       gradPic: "/newMedia/H201826481/gradPic",
+      profile: "/newMedia/H201826481/profile",
       designatedWork: {
         image: "/newMedia/H201826481/designatedImage",
         title: "생존가계부",
@@ -425,6 +450,7 @@ export const Data: dataType = {
       name: "안민정",
       comment: "새로운 것을 많이 배운 기회였습니다. 감사합니다.",
       gradPic: "/newMedia/H201826355/gradPic",
+      profile: "/newMedia/H201826355/profile",
       designatedWork: {
         image: "/newMedia/H201826355/designatedImage",
         title: "고래(Dive Into You)",
@@ -443,6 +469,7 @@ export const Data: dataType = {
       name: "오혜성",
       comment: "꼭 좋은 디자이너가 되겠습니다.",
       gradPic: "/newMedia/H201826483/gradPic",
+      profile: "/newMedia/H201826483/profile",
       designatedWork: {
         image: "/newMedia/H201826483/designatedImage",
         title: `PRADA's Action`,
@@ -461,6 +488,7 @@ export const Data: dataType = {
       name: "용혜원",
       comment: "많은 것들을 배우고 성장할 수 있었습니다.",
       gradPic: "/newMedia/H201926075/gradPic",
+      profile: "/newMedia/H201926075/profile",
       designatedWork: {
         image: "/newMedia/H201926075/designatedImage",
         title: "앱 리디자인",
@@ -481,6 +509,7 @@ export const Data: dataType = {
       name: "이희도",
       comment: `처음 도전하고자 하는 마음보다\n아쉬움이 크지만 많은 것을 얻어갑니다.`,
       gradPic: "/newMedia/H201826495/gradPic",
+      profile: "/newMedia/H201826495/profile",
       designatedWork: {
         image: "/newMedia/H201826495/designatedImage",
         title: "스타벅스 디자인",
@@ -501,6 +530,7 @@ export const Data: dataType = {
       comment:
         "직장생활과 병행하는 것은 쉽지 않았지만 새로운 툴을 다루거나 여러 과제를 경험하면서 많이 배우고 성장할 수 있었습니다. 감사합니다!",
       gradPic: "/newMedia/2021107704/gradPic",
+      profile: "/newMedia/2021107704/profile",
       designatedWork: {
         image: "/newMedia/2021107704/designatedImage",
         title: "평화로운 영웅 마을",
@@ -521,6 +551,7 @@ export const Data: dataType = {
       comment:
         "4년간 훌륭한 교수님들의 좋은 강의를 들을 수 있어서 정말 좋았습니다.",
       gradPic: "/newMedia/H201826234/gradPic",
+      profile: "/newMedia/H201826234/profile",
       designatedWork: {
         image: "/newMedia/H201826234/designatedImage",
         title: "루비라디오",
@@ -540,6 +571,7 @@ export const Data: dataType = {
       name: "조은지",
       comment: "굉장히 뿌듯하고 의미 있는 시간이었습니다.",
       gradPic: "/newMedia/H201826500/gradPic",
+      profile: "/newMedia/H201826500/profile",
       designatedWork: {
         image: "/newMedia/H201826500/designatedImage",
         title: "웹 리디자인",
@@ -559,6 +591,7 @@ export const Data: dataType = {
       name: "주리원",
       comment: "내일로 향하는 길을 만드는 걸 도와주셔서 감사합니다.",
       gradPic: "/newMedia/H201926117/gradPic",
+      profile: "/newMedia/H201926117/profile",
       designatedWork: {
         image: "/newMedia/H201926117/designatedImage",
         title: "자주 웹 리뉴얼",
@@ -577,6 +610,7 @@ export const Data: dataType = {
       name: "최세람",
       comment: "좋은 교육을 들을수 있어서 행복했습니다!",
       gradPic: "/newMedia/2021107974/gradPic",
+      profile: "/newMedia/2021107974/profile",
       designatedWork: {
         image: "/newMedia/2021107974/designatedImage",
         title: "PERSONAL PORTFOLIO WEBSITE",
@@ -596,6 +630,7 @@ export const Data: dataType = {
       name: "최정아",
       comment: `NEVE GIVE UP\nBELIEVE IN YOURSELF\nFOLLOW YOUR DREAMS`,
       gradPic: "/newMedia/H201926126/gradPic",
+      profile: "/newMedia/H201926126/profile",
       designatedWork: {
         image: "/newMedia/H201926126/designatedImage",
         title: "PERMISSION TO DANCE ON STAGE - LAS VEGAS",
@@ -616,6 +651,7 @@ export const Data: dataType = {
       name: "최지원",
       comment: "감사합니다.",
       gradPic: "/newMedia/H201826504/gradPic",
+      profile: "/newMedia/H201826504/profile",
       designatedWork: {
         image: "/newMedia/H201826504/designatedImage",
         title: "운동 일기 서비스, Share fit",
@@ -634,6 +670,7 @@ export const Data: dataType = {
       name: "한승원",
       comment: "많은 것을 배울 수 있는 뜻깊은 시간이였습니다.",
       gradPic: "/newMedia/H201526562/gradPic",
+      profile: "/newMedia/H201526562/profile",
       designatedWork: {
         image: "/newMedia/H201526562/designatedImage",
         title: "스포츠 브랜드",
@@ -652,6 +689,7 @@ export const Data: dataType = {
       name: "강지민",
       comment: `졸업을 앞두고 아쉬움이 조금 남지만 후회가 없도록 매학기 성실하게 보내온 것에 만족하며 교수님들의 우수한 지도편달에 감사를 드립니다.`,
       gradPic: "/architecture/H201807072/gradPic",
+      profile: "/architecture/H201807072/profile",
       designatedWork: {
         image: "/architecture/H201807072/designatedImage",
         title: "화평정",
@@ -667,6 +705,7 @@ export const Data: dataType = {
       name: "권진아",
       comment: "시작을 위한 배움에 도움 주셔서 감사드립니다.",
       gradPic: "/architecture/2021102815/gradPic",
+      profile: "/architecture/2021102815/profile",
       designatedWork: {
         image: "/architecture/2021102815/designatedImage",
         title: "나우리",
@@ -682,6 +721,7 @@ export const Data: dataType = {
       name: "김현주",
       comment: "많은 가르침을 주신 교수님께 감사드립니다.",
       gradPic: "/architecture/H201907058/gradPic",
+      profile: "/architecture/H201907058/profile",
       designatedWork: {
         image: "/architecture/H201907058/designatedImage",
         title: "청춘들을 위한 공간 SYMBOL",
@@ -698,6 +738,7 @@ export const Data: dataType = {
       name: "박영빈",
       comment: `아직 부족하지만 많은 공부가 되었습니다.\n감사합니다.`,
       gradPic: "/architecture/H201826210/gradPic",
+      profile: "/architecture/H201826210/profile",
       designatedWork: {
         image: "/architecture/H201826210/designatedImage",
         title: "함께 살아가는 공유주거 공간",
@@ -714,6 +755,7 @@ export const Data: dataType = {
       name: "박재림",
       comment: "노력은 배신하지 않는다.",
       gradPic: "/architecture/H201807147/gradPic",
+      profile: "/architecture/H201807147/profile",
       designatedWork: {
         image: "/architecture/H201807147/designatedImage",
         title: `"The Floating House"`,
@@ -730,6 +772,7 @@ export const Data: dataType = {
       name: "배재현",
       comment: `오래 걸렸지만 마무리하게 되어 기쁩니다.\n좋은 강의해주신 교수님들께 감사드립니다.`,
       gradPic: "/architecture/H201426258/gradPic",
+      profile: "/architecture/H201426258/profile",
       designatedWork: {
         image: "/architecture/H201426258/designatedImage",
         title: `마을공동체 문화 회복을 위한\n마을 사랑방 만들기`,
@@ -745,6 +788,7 @@ export const Data: dataType = {
       name: "손오영",
       comment: "감사합니다.",
       gradPic: "/architecture/H201526414/gradPic",
+      profile: "/architecture/H201526414/profile",
       designatedWork: {
         image: "/architecture/H201526414/designatedImage",
         title: "70 n 22",
@@ -760,6 +804,7 @@ export const Data: dataType = {
       name: "송정화",
       comment: "인생에 한 가지 더 마무리 지을 수 있게되어 감사합니다 :)",
       gradPic: "/architecture/H201807108/gradPic",
+      profile: "/architecture/H201807108/profile",
       designatedWork: {
         image: "/architecture/H201807108/designatedImage",
         title: "circle",
@@ -776,6 +821,7 @@ export const Data: dataType = {
       comment:
         "미완성 인생을 만학의 소박한 노력과 그럴 수 있게 주신 도움으로 잘 여물겠습니다.",
       gradPic: "/architecture/H201707041/gradPic",
+      profile: "/architecture/H201707041/profile",
       designatedWork: {
         image: "/architecture/H201707041/designatedImage",
         title: "쉼 그리고 남겨진 황혼",
@@ -792,6 +838,7 @@ export const Data: dataType = {
       name: "이윤주",
       comment: "짧은 시간, 많이 배우고 갑니다. 감사합니다.",
       gradPic: "/architecture/H201807149/gradPic",
+      profile: "/architecture/H201807149/profile",
       designatedWork: {
         image: "/architecture/H201807149/designatedImage",
         title: "복합문화공간형 목동서로 도서관 디자인",
@@ -807,6 +854,7 @@ export const Data: dataType = {
       name: "이지영",
       comment: "그동안 감사했습니다.",
       gradPic: "/architecture/H201807150/gradPic",
+      profile: "/architecture/H201807150/profile",
       designatedWork: {
         image: "/architecture/H201807150/designatedImage",
         title: "반려동물과 함께하는 취미생활",
@@ -823,6 +871,7 @@ export const Data: dataType = {
       name: "이지유",
       comment: "스스로 기획해볼 수 있어 많은 도움이 되었고 감사합니다.",
       gradPic: "/architecture/H201626554/gradPic",
+      profile: "/architecture/H201626554/profile",
       designatedWork: {
         image: "/architecture/H201626554/designatedImage",
         title: "이운_복합문화공간",
@@ -838,6 +887,7 @@ export const Data: dataType = {
       name: "이한상",
       comment: "일과 학업을 병행하며 힘들었지만 뜻 깊은 대학생활이였습니다.",
       gradPic: "/architecture/H201726155/gradPic",
+      profile: "/architecture/H201726155/profile",
       designatedWork: {
         image: "/architecture/H201726155/designatedImage",
         title: "Project_Barrack",
@@ -853,6 +903,7 @@ export const Data: dataType = {
       name: "황유민",
       comment: `너무도 부족한 자신의 실력에 한숨 지어봅니다.\n어렵게 졸업시켜 주신 교수님께도 죄송한 마음이 가득입니다.`,
       gradPic: "/architecture/H201226279/gradPic",
+      profile: "/architecture/H201226279/profile",
       designatedWork: {
         image: "/architecture/H201226279/designatedImage",
         title: `"소나무"\n자연과 하나되는 공간`,
@@ -870,6 +921,7 @@ export const Data: dataType = {
       name: "강경훈",
       comment: "응원과 배려, 늘 힘이 되어준 가족에게 감사드립니다.",
       gradPic: "/culture/H201926001/gradPic",
+      profile: "/culture/H201926001/profile",
       designatedWork: {
         image: "/culture/H201926001/designatedImage",
         title: "프리랜서를 위한 워케이션 플랫폼 앱",
@@ -886,6 +938,7 @@ export const Data: dataType = {
       name: "김영미",
       comment: `코로나로 인해 온라인으로 진행되었지만\n유익한 시간이었습니다. 교수님 감사합니다.`,
       gradPic: "/culture/2021103343/gradPic",
+      profile: "/culture/2021103343/profile",
       designatedWork: {
         image: "/culture/2021103343/designatedImage",
         title:
@@ -903,6 +956,7 @@ export const Data: dataType = {
       name: "김예지",
       comment: "졸업이라니.. 감개가 무량합니다.",
       gradPic: "/culture/H201826204/gradPic",
+      profile: "/culture/H201826204/profile",
       designatedWork: {
         image: "/culture/H201826204/designatedImage",
         title: `택배 물류 통합 시스템 “와따”`,
@@ -918,6 +972,7 @@ export const Data: dataType = {
       name: "박은진",
       comment: `짧게 다녔지만 많은 것을 체계적으로 배울 수 있어서 좋았습니다.\n모든 교수님들께 감사의 마음을 전하고 싶습니다.`,
       gradPic: "/culture/2021103187/gradPic",
+      profile: "/culture/2021103187/profile",
       designatedWork: {
         image: "/culture/2021103187/designatedImage",
         title: "You Raise Me Up",
@@ -934,6 +989,7 @@ export const Data: dataType = {
       comment:
         "인생에서 가장 즐거운 경험을 만들어준 학교에 진심으로 감사드립니다.",
       gradPic: "/culture/H201626067/gradPic",
+      profile: "/culture/H201626067/profile",
       designatedWork: {
         image: "/culture/H201626067/designatedImage",
         title: `식집사는 다 계획이 있다.\n전문적이고 편리한 반려식물 관리를 위한 모바일 APP`,
@@ -949,6 +1005,7 @@ export const Data: dataType = {
       name: "신유정",
       comment: "2년 반이 걸린 장기 프로젝트를 완주해서 뿌듯합니다.",
       gradPic: "/culture/H201826353/gradPic",
+      profile: "/culture/H201826353/profile",
       designatedWork: {
         image: "/culture/H201826353/designatedImage",
         title: "크라임씬 추리게임 APP",
@@ -964,6 +1021,7 @@ export const Data: dataType = {
       name: "유은재",
       comment: "수고 많으셨습니다.",
       gradPic: "/culture/H201726392/gradPic",
+      profile: "/culture/H201726392/profile",
       designatedWork: {
         image: "/culture/H201726392/designatedImage",
         title: `아침 식사 픽업 서비스\nSILVERJ FOOD`,
@@ -981,6 +1039,7 @@ export const Data: dataType = {
       comment:
         "정말 좋은 배움과 경험의 시간이였습니다. 배우는기간동안 정말 감사했습니다!",
       gradPic: "/culture/H201826488/gradPic",
+      profile: "/culture/H201826488/profile",
       designatedWork: {
         image: "/culture/H201826488/designatedImage",
         title: "따뜻한 봄, 피어나는 문화생활 ART BOM",
@@ -996,6 +1055,7 @@ export const Data: dataType = {
       name: "이상욱",
       comment: "苦盡甘來",
       gradPic: "/culture/H201826489/gradPic",
+      profile: "/culture/H201826489/profile",
       designatedWork: {
         image: "/culture/H201826489/designatedImage",
         title: "STEP BY STEP 빔프로젝트를 이용한 계단공간의 디지털 정보디자인",
@@ -1011,6 +1071,7 @@ export const Data: dataType = {
       name: "이지원",
       comment: "많이 생각하는 시간이었고 보람으로 가득했다고 기억하겠습니다.",
       gradPic: "/culture/H201826494/gradPic",
+      profile: "/culture/H201826494/profile",
       designatedWork: {
         image: "/culture/H201826494/designatedImage",
         title: `우리가 있을 곳 '길지'`,
@@ -1026,6 +1087,7 @@ export const Data: dataType = {
       name: "임지수",
       comment: `3년 반의 시간동안 많은 것을 배웠습니다.\n추가로 졸업까지 열심히 응원해주신 가족들과 정동수광림 사랑합니다!`,
       gradPic: "/culture/H201926097/gradPic",
+      profile: "/culture/H201926097/profile",
       designatedWork: {
         image: "/culture/H201926097/designatedImage",
         title: "직장인을 위한 상담어플 기획",
@@ -1042,6 +1104,7 @@ export const Data: dataType = {
       name: "최진영",
       comment: `DO NOTHING,\nNOTHING HAPPENS!`,
       gradPic: "/culture/H201826505/gradPic",
+      profile: "/culture/H201826505/profile",
       designatedWork: {
         image: "/culture/H201826505/designatedImage",
         title: "BEAUTY INSIDE",
@@ -1058,6 +1121,7 @@ export const Data: dataType = {
       name: "최한솔",
       comment: "교수님들의 훌륭한 강의 덕분에 성장해서 졸업합니다.",
       gradPic: "/culture/H201826444/gradPic",
+      profile: "/culture/H201826444/profile",
       designatedWork: {
         image: "/culture/H201826444/designatedImage",
         title: "SANDRIUM",
@@ -1073,6 +1137,7 @@ export const Data: dataType = {
       name: "황세희",
       comment: `다시 한번 새롭게\n배우고 성자하는 계기가 되었습니다.\n모두 감사했습니다.`,
       gradPic: "/culture/H201826507/gradPic",
+      profile: "/culture/H201826507/profile",
       designatedWork: {
         image: "/culture/H201826507/designatedImage",
         title: "내 아이를 지켜줘!",
@@ -1089,6 +1154,7 @@ export const Data: dataType = {
       comment:
         "바쁘게 돌아가는 업무 시간 속에서 틈틈이 짬을 내서 하다보니 예전 졸업때도 생각나고 즐거운 뜻깊은 시간이었습니다.",
       gradPic: "/culture/H201826458/gradPic",
+      profile: "/culture/H201826458/profile",
       designatedWork: {
         image: "/culture/H201826458/designatedImage",
         title: "Save the me",
@@ -1106,6 +1172,7 @@ export const Data: dataType = {
       name: "강병희",
       comment: `뒤늦게 대학의 문을 두드려 배움에 대한 설렘이 시작되었고 중간에 학업을 포기해야 할 만큼 개인적인 여러 일들이 있었지만 다시 끈을 잡고 나아가다 보니 어느덧 졸업의 순간이 되었습니다.\n늘 지나고 나면 아쉬움이 크기 마련인데 여기까지 잘 온 저한테 스스로 격려를 해주고 싶고 '한사대'가 제 인생에 한 단계 더 나아가게 해주는 디딤돌 역할을 해 주었듯이 저도 졸업 이후에 사회에서 멋진 디딤돌 역할을 잘 하도록 하겠습니다.`,
       gradPic: "/visual/H200805130/gradPic",
+      profile: "/visual/H200805130/profile",
       designatedWork: {
         image: "/visual/H200805130/designatedImage",
         title: "전쟁은 없다",
@@ -1123,6 +1190,7 @@ export const Data: dataType = {
       name: "고현경",
       comment: `한양사이버를 통해 창의적이고 유익한 지식을 쌓을 수 있어 즐거웠습니다.\n좋은 강의를 해주신 교수님들께 감사드립니다.`,
       gradPic: "/visual/H201826274/gradPic",
+      profile: "/visual/H201826274/profile",
       designatedWork: {
         image: "/visual/H201826274/designatedImage",
         title: "자전거 풍륜, 문장이 되어 돌아오다.",
@@ -1141,6 +1209,7 @@ export const Data: dataType = {
       name: "김미현",
       comment: `코로나로 힘든 시기에도 잘 마무리 할 수 있어서 뿌듯합니다.\n끝까지 응원해주신 교수님들 정말 감사드립니다.`,
       gradPic: "/visual/H201826284/gradPic",
+      profile: "/visual/H201826284/profile",
       designatedWork: {
         image: "/visual/H201826284/designatedImage",
         title: "끝없는 도전",
@@ -1159,6 +1228,7 @@ export const Data: dataType = {
       name: "김성민",
       comment: `편입하고 2년동안 많은 것을 배우고 다양한 것을 생각할 수 있는 시간이었습니다.\n감사합니다.`,
       gradPic: "/visual/H201626302/gradPic",
+      profile: "/visual/H201626302/profile",
       designatedWork: {
         image: "/visual/H201626302/designatedImage",
         title: "운동하면 건강해질까?",
@@ -1177,6 +1247,7 @@ export const Data: dataType = {
       name: "김소영",
       comment: "몰랐던 것을 배우고, 새로운 도전을 할 수 있어 좋았습니다.",
       gradPic: "/visual/2021107014/gradPic",
+      profile: "/visual/2021107014/profile",
       designatedWork: {
         image: "/visual/2021107014/designatedImage",
         title: "CALMloud",
@@ -1194,6 +1265,7 @@ export const Data: dataType = {
       name: "김요한",
       comment: `좀 더 빨리 배울걸 하는 생각이 듭니다.\n지도해주신 교수님들 정말 고생 많으셨습니다.\n감사합니다.`,
       gradPic: "/visual/H201826298/gradPic",
+      profile: "/visual/H201826298/profile",
       designatedWork: {
         image: "/visual/H201826298/designatedImage",
         title: `영화 ‘her’의 포스터 리디자인\n‘그녀와의 만남’`,
@@ -1211,6 +1283,7 @@ export const Data: dataType = {
       name: "김은희",
       comment: `감사합니다.`,
       gradPic: "/visual/H201826468/gradPic",
+      profile: "/visual/H201826468/profile",
       designatedWork: {
         image: "/visual/H201826468/designatedImage",
         title: "반려견과 함께하는 홍대거리",
@@ -1228,6 +1301,7 @@ export const Data: dataType = {
       name: "김희진",
       comment: `노력한 만큼 더욱 성장한 값진 시간이었습니다.`,
       gradPic: "/visual/2021107632/gradPic",
+      profile: "/visual/2021107632/profile",
       designatedWork: {
         image: "/visual/2021107632/designatedImage",
         title: "DARK SWAN",
@@ -1245,6 +1319,7 @@ export const Data: dataType = {
       name: "박지현",
       comment: `졸업을 할 수 있어서 행복하고 개운합니다\n배운 것들 잊지않고 잘 활용하겠습니다\n감사합니다`,
       gradPic: "/visual/H201826064/gradPic",
+      profile: "/visual/H201826064/profile",
       designatedWork: {
         image: "/visual/H201826064/designatedImage",
         title: "시간의 풍경을 담다",
@@ -1263,6 +1338,7 @@ export const Data: dataType = {
       name: "박진영",
       comment: "졸업이 끝이 아닌 새로운 시작이길 바라봅니다.",
       gradPic: "/visual/H201826213/gradPic",
+      profile: "/visual/H201826213/profile",
       designatedWork: {
         image: "/visual/H201826213/designatedImage",
         title: "원더 북커버 리디자인",
@@ -1281,6 +1357,7 @@ export const Data: dataType = {
       name: "박형기",
       comment: `감사드립니다~^^\n많이 배우고 즐겁고 유익한 시간이 되었습니다.`,
       gradPic: "/visual/H201826257/gradPic",
+      profile: "/visual/H201826257/profile",
       designatedWork: {
         image: "/visual/H201826257/designatedImage",
         title: "문제를 해결해 주는 디자인!!",
@@ -1300,6 +1377,7 @@ export const Data: dataType = {
       comment:
         "많이 배워갈 수 있어서 좋았고 무사히 졸업전시까지 오게 되어 기쁩니다.",
       gradPic: "/visual/H201826479/gradPic",
+      profile: "/visual/H201826479/profile",
       designatedWork: {
         image: "/visual/H201826479/designatedImage",
         title: "백설공주",
@@ -1318,6 +1396,7 @@ export const Data: dataType = {
       name: "서민정",
       comment: `드디어 졸업을 한다는\n쾌감이 느껴집니다.\n다들 꽃길걸으세요! 화이팅`,
       gradPic: "/visual/H201826339/gradPic",
+      profile: "/visual/H201826339/profile",
       designatedWork: {
         image: "/visual/H201826339/designatedImage",
         title: "귀에 때려박는 사운드, 소니헤드셋",
@@ -1337,6 +1416,7 @@ export const Data: dataType = {
       name: "서보원",
       comment: "마침표 그리고 새로운 시작.",
       gradPic: "/visual/H201926064/gradPic",
+      profile: "/visual/H201926064/profile",
       designatedWork: {
         image: "/visual/H201926064/designatedImage",
         title: "Design adds value faster than it adds costs",
@@ -1356,6 +1436,7 @@ export const Data: dataType = {
       comment:
         "꼭 한 번 도전해보고 싶었던 시각디자인 공부를 마치게 되어 후련합니다.",
       gradPic: "/visual/H201826084/gradPic",
+      profile: "/visual/H201826084/profile",
       designatedWork: {
         image: "/visual/H201826084/designatedImage",
         title: "나의 라임오렌지나무 표지 리디자인",
@@ -1374,6 +1455,7 @@ export const Data: dataType = {
       name: "송현호",
       comment: "아직도 멀었지만 정말 많은 것을 얻고 배워갑니다.",
       gradPic: "/visual/H201926068/gradPic",
+      profile: "/visual/H201926068/profile",
       designatedWork: {
         image: "/visual/H201926068/designatedImage",
         title: "신중하라",
@@ -1392,6 +1474,7 @@ export const Data: dataType = {
       comment:
         "한양사이버대학 시각디자인과를 졸업할 수 있어서 기쁩니다. 감사했습니다.",
       gradPic: "/visual/H201826350/gradPic",
+      profile: "/visual/H201826350/profile",
       designatedWork: {
         image: "/visual/H201826350/designatedImage",
         title: "프로필 인포그래픽",
@@ -1410,6 +1493,7 @@ export const Data: dataType = {
       name: "신재은",
       comment: "졸업이라는 단어가 아직도 낯설지만 해냈다는 생각이 듭니다.",
       gradPic: "/visual/H201826222/gradPic",
+      profile: "/visual/H201826222/profile",
       designatedWork: {
         image: "/visual/H201826222/designatedImage",
         title: "me before you(북 리 디자인)",
@@ -1428,6 +1512,7 @@ export const Data: dataType = {
       comment:
         "한양사이버대학교에서 많은 것을 배워서 사회에 나가서 더 멋진 디자이너가 되도록 노력하고싶습니다! 좋은 교수님들과 수업할 수 있어서 영광이었습니다.",
       gradPic: "/visual/H201826485/gradPic",
+      profile: "/visual/H201826485/profile",
       designatedWork: {
         image: "/visual/H201826485/designatedImage",
         title: "가수 태연의 weekend의 인물 포스터",
@@ -1445,6 +1530,7 @@ export const Data: dataType = {
       name: "이도경",
       comment: "포기하지 않고 끊임없이 끝까지 지도해주셔서 감사합니다.",
       gradPic: "/visual/H201826490/gradPic",
+      profile: "/visual/H201826490/profile",
       designatedWork: {
         image: "/visual/H201826490/designatedImage",
         title: "Are you vaccinated?",
@@ -1462,6 +1548,7 @@ export const Data: dataType = {
       name: "이세진",
       comment: `많은 것을 배운 시간이었습니다.\n졸업은 끝이 아닌 시작이라고 생각하면서 새로운 일에 도전해보도록 하겠습니다!`,
       gradPic: "/visual/H201826491/gradPic",
+      profile: "/visual/H201826491/profile",
       designatedWork: {
         image: "/visual/H201826491/designatedImage",
         title: "에놀라홈즈 영화포스터",
@@ -1479,6 +1566,7 @@ export const Data: dataType = {
       name: "이아름",
       comment: "많은 배움이 있던 시간이었습니다. 감사합니다.",
       gradPic: "/visual/H201726496/gradPic",
+      profile: "/visual/H201726496/profile",
       designatedWork: {
         image: "/visual/H201726496/designatedImage",
         title: "STOP MOTION",
@@ -1496,6 +1584,7 @@ export const Data: dataType = {
       name: "이영제",
       comment: `디자인 관련해서 많은 것들을 배우고 가요!\n감사합니다!`,
       gradPic: "/visual/H201726141/gradPic",
+      profile: "/visual/H201726141/profile",
       designatedWork: {
         image: "/visual/H201726141/designatedImage",
         title: "애정결핍",
@@ -1513,6 +1602,7 @@ export const Data: dataType = {
       name: "이지혜",
       comment: "Thinking like a scientist",
       gradPic: "/visual/H201826130/gradPic",
+      profile: "/visual/H201826130/profile",
       designatedWork: {
         image: "/visual/H201826130/designatedImage",
         title: "영화 The Da Vinci Code 포스터 리디자인",
@@ -1531,6 +1621,7 @@ export const Data: dataType = {
       name: "이혜연",
       comment: "우리 졸업생 여러분 모두가 앞으로 더 빛나길 응원합니다.",
       gradPic: "/visual/2021105176/gradPic",
+      profile: "/visual/2021105176/profile",
       designatedWork: {
         image: "/visual/2021105176/designatedImage",
         title: "Beauty Inside",
@@ -1549,6 +1640,7 @@ export const Data: dataType = {
       comment:
         "늘 도중에 포기하곤 했는데 졸업하게 되었네요. 계속 공부하겠습니다.",
       gradPic: "/visual/H201826264/gradPic",
+      profile: "/visual/H201826264/profile",
       designatedWork: {
         image: "/visual/H201826264/designatedImage",
         title: "국립박물관문화재단 브로셔 디자인",
@@ -1566,6 +1658,7 @@ export const Data: dataType = {
       name: "장찬우",
       comment: `많은 것을 배웠습니다.\n교수님들 감사했습니다.`,
       gradPic: "/visual/H201726270/gradPic",
+      profile: "/visual/H201726270/profile",
       designatedWork: {
         image: "/visual/H201726270/designatedImage",
         title: "살인 도구",
@@ -1586,6 +1679,7 @@ export const Data: dataType = {
       comment:
         "늦은 나이에 디자인 공부를 시작하여 어려운 부분들 있었지만 뿌듯한 시간이었습니다.",
       gradPic: "/visual/H201526177/gradPic",
+      profile: "/visual/H201526177/profile",
       designatedWork: {
         image: "/visual/H201526177/designatedImage",
         title: "Love the Earth",
@@ -1603,6 +1697,7 @@ export const Data: dataType = {
       name: "차유연",
       comment: `쉽지 않았지만 많은 교수님 도움 덕분에 무사히 졸전, 졸업까지 올 수 있었습니다.\n감사합니다.`,
       gradPic: "/visual/H201826502/gradPic",
+      profile: "/visual/H201826502/profile",
       designatedWork: {
         image: "/visual/H201826502/designatedImage",
         title: "Fade But Etnernal",
@@ -1620,6 +1715,7 @@ export const Data: dataType = {
       name: "채지연",
       comment: "많은 것을 배우고 성장할 수 있었습니다",
       gradPic: "/visual/H201626264/gradPic",
+      profile: "/visual/H201626264/profile",
       designatedWork: {
         image: "/visual/H201626264/designatedImage",
         title: "메인디자인 개편",
@@ -1637,6 +1733,7 @@ export const Data: dataType = {
       name: "최미래",
       comment: `드디어 졸업\n모두 수고하셨습니다 :)`,
       gradPic: "/visual/H201826172/gradPic",
+      profile: "/visual/H201826172/profile",
       designatedWork: {
         image: "/visual/H201826172/designatedImage",
         title: "FRAPPUCCINO",
@@ -1654,6 +1751,7 @@ export const Data: dataType = {
       name: "최주리",
       comment: "많이 배우고, 즐겁고 보람된 시간이였습니다! 감사합니다:)",
       gradPic: "/visual/H201826440/gradPic",
+      profile: "/visual/H201826440/profile",
       designatedWork: {
         image: "/visual/H201826440/designatedImage",
         title: "어바웃타임",
@@ -1673,6 +1771,7 @@ export const Data: dataType = {
       name: "최주원",
       comment: "4년 동안 배우는 것이 많아 즐거웠습니다.",
       gradPic: "/visual/H201826236/gradPic",
+      profile: "/visual/H201826236/profile",
       designatedWork: {
         image: "/visual/H201826236/designatedImage",
         title: "CITY&NATURE",
@@ -1690,6 +1789,7 @@ export const Data: dataType = {
       name: "한현정",
       comment: "유익한 시간이었습니다. 감사합니다.",
       gradPic: "/visual/H201926135/gradPic",
+      profile: "/visual/H201926135/profile",
       designatedWork: {
         image: "/visual/H201926135/designatedImage",
         title: "Enter, Enterance",
@@ -1708,6 +1808,7 @@ export const Data: dataType = {
       name: "홍경주",
       comment: `“비움과 채움”이란 단어와 함께 긴 여정을 의미있게 마무리합니다.\n모든 분들께 감사드립니다.`,
       gradPic: "/visual/H201926136/gradPic",
+      profile: "/visual/H201926136/profile",
       designatedWork: {
         image: "/visual/H201926136/designatedImage",
         title: "Design Art",
@@ -1726,6 +1827,7 @@ export const Data: dataType = {
       name: "홍주연",
       comment: `직장을 병행하며 힘들게 공부하느라 너무 아쉽고 미련이 남습니다.\n과목마다 훌륭한 교수님들의 강의와 가르침들.. 정말 감사드립니다.`,
       gradPic: "/visual/H201826454/gradPic",
+      profile: "/visual/H201826454/profile",
       designatedWork: {
         image: "/visual/H201826454/designatedImage",
         title: "호흡이 주는 선물(책표지디자인)",
@@ -1745,6 +1847,7 @@ export const Data: dataType = {
       comment:
         "길고도 어려운 길이였지만 후회하지 않는 길이였습니다. 좀 더 열심히 하고싶었던 아쉬운 마음을 뒤로하고 졸업작품까지 제출하게됨을 기쁘게 생각합니다.",
       gradPic: "/visual/H201726252/gradPic",
+      profile: "/visual/H201726252/profile",
       designatedWork: {
         image: "/visual/H201726252/designatedImage",
         title: "희망",
@@ -1764,7 +1867,8 @@ export const Data: dataType = {
     {
       id: "디자인학부장",
       name: "최성호",
-      gradPic: "/professor/SHChoi",
+      gradPic: "",
+      profile: "/professor/SHChoi",
       designatedWork: { image: "" },
       freeWork: { image: "" },
       department: "professor",
@@ -1772,7 +1876,8 @@ export const Data: dataType = {
     {
       id: "디자인학부 교수",
       name: "은덕수",
-      gradPic: "/professor/DSU",
+      gradPic: "",
+      profile: "/professor/DSU",
       designatedWork: { image: "" },
       freeWork: { image: "" },
       department: "professor",
@@ -1780,7 +1885,8 @@ export const Data: dataType = {
     {
       id: "디자인학부 교수",
       name: "김학민",
-      gradPic: "/professor/HMK",
+      gradPic: "",
+      profile: "/professor/HMK",
       designatedWork: { image: "" },
       freeWork: { image: "" },
       department: "professor",
@@ -1788,7 +1894,8 @@ export const Data: dataType = {
     {
       id: "디자인학부 교수",
       name: "차승화",
-      gradPic: "/professor/SHC",
+      gradPic: "",
+      profile: "/professor/SHC",
       designatedWork: { image: "" },
       freeWork: { image: "" },
       department: "professor",
@@ -1796,7 +1903,8 @@ export const Data: dataType = {
     {
       id: "디자인학부 교수",
       name: "엄기준",
-      gradPic: "/professor/KJU",
+      gradPic: "",
+      profile: "/professor/KJU",
       designatedWork: { image: "" },
       freeWork: { image: "" },
       department: "professor",
@@ -1804,7 +1912,8 @@ export const Data: dataType = {
     {
       id: "디자인학부 교수",
       name: "정성모",
-      gradPic: "/professor/SMJ",
+      gradPic: "",
+      profile: "/professor/SMJ",
       designatedWork: { image: "" },
       freeWork: { image: "" },
       department: "professor",
@@ -1812,7 +1921,8 @@ export const Data: dataType = {
     {
       id: "디자인학부 교수",
       name: "김민정",
-      gradPic: "/professor/MJK",
+      gradPic: "",
+      profile: "/professor/MJK",
       designatedWork: { image: "" },
       freeWork: { image: "" },
       department: "professor",

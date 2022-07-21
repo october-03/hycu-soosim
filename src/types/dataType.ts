@@ -6,6 +6,7 @@ export type memberType = {
   designatedWork: workType;
   gradPic: string;
   department: string;
+  profile: string;
 };
 
 export type dataType = {

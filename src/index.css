@@ -217,6 +217,10 @@ html {
   background-size: contain;
   width: 200px;
   height: 249px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -50%);
 }
 
 .introduction-diagram {
@@ -418,7 +422,7 @@ html {
 
 .loading-compo {
   animation-name: fadeOut;
-  animation-duration: 0.5s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-direction: normal;
 }

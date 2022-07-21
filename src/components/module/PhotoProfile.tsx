@@ -50,12 +50,16 @@ export default function PhotoProfile({ data, color, professor }: propsType) {
         }}
       >
         <img
-          src={require("../../image" + data.gradPic + ".jpg")}
+          src={require("../../image" + data.profile + ".png")}
           style={{
-            width: 260,
-            height: 260,
-            objectFit: "cover",
+            width: 258,
+            height: 258,
+            objectFit: "contain",
             objectPosition: "center top",
+            backgroundColor: "#fff",
+            borderStyle: "solid",
+            borderWidth: "1px",
+            borderColor: "#e5e5e5",
           }}
           alt={""}
         />

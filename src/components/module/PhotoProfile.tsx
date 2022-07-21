@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Detail from "../../screens/Detail";
 import { memberType } from "../../types/dataType";
 import CustomText from "./CustomText";
@@ -10,6 +10,8 @@ export default function PhotoProfile({ data, color, professor }: propsType) {
   const closeModal = () => {
     setOpen(false);
   };
+
+  useEffect(() => {}, []);
 
   return (
     <>
@@ -62,18 +64,19 @@ export default function PhotoProfile({ data, color, professor }: propsType) {
         onRequestClose={closeModal}
         style={{
           content: {
-            width: "100vw",
+            width: "100%",
             inset: 0,
             border: "none",
             borderRadius: 0,
             padding: 0,
-            minWidth: 1440,
+            // minWidth: 1410,
             background: "#000",
-            overflow: "hidden",
+            overflow: "scroll",
+            WebkitOverflowScrolling: "touch",
           },
           overlay: {
             // minWidth: 1410,
-            // width: "100vw",
+            width: "100%",
             zIndex: 10000,
             overflow: "hidden",
           },

@@ -198,24 +198,24 @@ export const Data: dataType = {
     },
   ],
   newMedia: [
-    {
-      id: "H201826461",
-      name: "권지아",
-      comment: `드디어 졸업합니다!!\n잘배우고 갑니다 감사합니다 :)`,
-      gradPic: "/newMedia/H201826461/gradPic",
-      profile: "/newMedia/H201826461/profile",
-      designatedWork: {
-        image: "/newMedia/H201826461/designatedImage",
-        title: "모바일앱 리디자인",
-        comment: `고속버스 티머니 앱을 리뉴얼하였습니다.\n평온함, 신뢰성, 편리한 느낌을 주기 위해 파란계열의 디자인 컨셉을 잡고 작업했습니다.`,
-      },
-      freeWork: {
-        image: "/newMedia/H201826461/freeImage",
-        title: "포스터 디자인",
-        comment: "컨셉에 맞게 포스터 디자인했습니다.",
-      },
-      department: "newMedia",
-    },
+    // {
+    //   id: "H201826461",
+    //   name: "권지아",
+    //   comment: `드디어 졸업합니다!!\n잘배우고 갑니다 감사합니다 :)`,
+    //   gradPic: "/newMedia/H201826461/gradPic",
+    //   profile: "/newMedia/H201826461/profile",
+    //   designatedWork: {
+    //     image: "/newMedia/H201826461/designatedImage",
+    //     title: "모바일앱 리디자인",
+    //     comment: `고속버스 티머니 앱을 리뉴얼하였습니다.\n평온함, 신뢰성, 편리한 느낌을 주기 위해 파란계열의 디자인 컨셉을 잡고 작업했습니다.`,
+    //   },
+    //   freeWork: {
+    //     image: "/newMedia/H201826461/freeImage",
+    //     title: "포스터 디자인",
+    //     comment: "컨셉에 맞게 포스터 디자인했습니다.",
+    //   },
+    //   department: "newMedia",
+    // },
     {
       id: "H201726321",
       name: "김연주",

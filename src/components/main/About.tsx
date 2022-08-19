@@ -73,7 +73,7 @@ export default function About() {
           <iframe
             width="940"
             height="529"
-            src="https://www.youtube.com/embed/y4rfU_DyJ0A"
+            src="https://www.youtube.com/embed/D8pEsbTY_2Q"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
             frameBorder={0}

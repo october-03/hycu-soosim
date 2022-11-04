@@ -1,26 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Navigate, Route, Routes, useLocation } from "react-router-dom";
+import Main from "./screens/Main";
 
-function App() {
+export default function App() {
+  const location = useLocation();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <TransitionGroup>
+    //   <CSSTransition timeout={300} classNames={"fade"} key={location.pathname}>
+    <Routes location={location}>
+      <Route path="/" element={<Main />} />
+      {/* <Route path="/detail" element={<Detail />} /> */}
+      <Route path="*" element={<Navigate replace to="/" />} />
+    </Routes>
+    //   </CSSTransition>
+    // </TransitionGroup>
   );
 }
-
-export default App;
